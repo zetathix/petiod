@@ -1,4 +1,4 @@
-# The PetI:O!D Specification & Design Framework (v2.1)
+# The PetI:O!D Specification & Design Framework (v1)
 
 ## 1. Executive Summary & Core Principle
 **PetI:O!D** (formerly *petXX*) is an open architectural standard and design philosophy for synthetic companions, virtual pets, and ambient kinetic entities. Its core foundational principle is **Minimal Animism Through Structural Constraints**.
