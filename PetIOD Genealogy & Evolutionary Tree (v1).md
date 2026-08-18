@@ -1,4 +1,4 @@
-# **PetOID Genealogy & Evolutionary Tree (v1)**
+# **PetIOD Genealogy & Evolutionary Tree (v1)**
 
 This document traces the historical, commercial, and experimental lineage of synthetic lifeforms, software pets, and robotic companions. Entities are analyzed using PetI:O\!D notation, Honesty Index (![][image1]), Deprivation Weight (![][image2]), and primary extinction vectors.
 
