@@ -1,98 +1,110 @@
-# The PetIOD Formal Taxonomy & Taxonomic Register (v2)
+# The PetIOD Standard: Formal Taxonomy & Taxonomic Register (v3.0)
 
-**Document Version:** 2.0  
+**Document Version:** 3.0  
 **Standard Name:** PetIOD (Input / Output / Driver)  
-**Classification System:** Modified Binomial Linnaean Nomenclature for Synthetic Life  
+**Classification Philosophy:** Binomial Nomenclature for Synthetic Life, Ecological Niche Boundary Isolation, and Optical Projection Metrics  
 
 ---
 
-## 1. Systemic Taxonomic Hierarchy
+## 1. Systemic Taxonomic Hierarchy & Ecological Habitats
 
-To categorize synthetic companions across historical epochs and modern design frameworks, PetIOD utilizes a four-tier biological taxonomy based on semiotic orders, structural input-output ratios, and mechanical/software execution.
+To categorize synthetic companions across historical epochs and modern design frameworks, PetIOD utilizes a four-tier biological taxonomy. This system isolates true synthetic pet niches from neighboring hyperreal habitats, avoiding moralizing assumptions while establishing rigid mathematical and ecological boundaries.
 
 ```mermaid
 graph TD
     Domain["Domain: Synthetic Animism"]
     
     Domain --> Phylum1["Phylum: PetIOD
-    (Honest Synthetic Life | H ≥ 0.85)"]
+    (Synthetic Pet Habitat | H ≥ 0.85)"]
     Domain --> Phylum2["Phylum: Pseudopetia
-    (Hyperreal / Dishonest Life | H < 0.40)"]
+    (Non-Pet / Hyperreal Habitat | H < 0.40)"]
     
     Phylum1 --> SubP1["Sub-Phylum: Sacramentum
-    (1st Order Simulacra | H = 1.0)"]
+    (1st Order Simulacra | Pure Umbra | H = 1.0)"]
     Phylum1 --> SubP2["Sub-Phylum: Mechanica
-    (2nd Order Simulacra | Offline Cams/ASIC)"]
+    (2nd Order Simulacra | Penumbra | Offline)"]
     
-    Phylum2 --> SubP3["Sub-Phylum: Simulatum
-    (3rd Order Simulacra | Cloud AI / Cameras)"]
-    Phylum2 --> SubP4["Sub-Phylum: Hyperludus
-    (4th Order Simulacra | Live Gacha / Apps)"]
+    Phylum2 --> Class1["Class I: Pseudo-allegata
+    (Liminal Pitch / Subordinate Clock)"]
+    Phylum2 --> Class2["Class II: Pseudo-mimetica
+    (Offline Flesh / Scripted Narrative)"]
+    Phylum2 --> Class3["Class III: Pseudo-terminalis
+    (Cloud LLMs / Biometrics / Live-Service)"]
 
-    SubP1 --> Class1["Class: Defined by Sensory Ratio (e.g., Pet1:1!D)"]
-    SubP2 --> Class1
-    SubP3 --> Class2["Class: Defined by Sensory Ratio (e.g., Pet3:3!D)"]
-    SubP4 --> Class2
+    Class3 --> Clade1["Comdatum Clade
+    (Data Companions / Chatbots / LLMs)"]
+    Class3 --> Clade2["Organum Clade
+    (Tools / Assistants / Smart Hubs)"]
+    Class3 --> Clade3["Hyperludus Clade
+    (Gacha / Live-Service Game Shells)"]
 
 ```
 
 ### High-Level Taxonomy Breakdown
 
 1. **Domain:** *Synthetic Animism*
-2. **Phylum PetIOD (Honest Entities):**
-* **Sub-Phylum *Sacramentum* (1st Order Simulacra):** Entities possessing absolute honesty ($H = 1.0$). They have zero screen overlays, no clock menus, zero cloud ties, and rely strictly on local physical/vector expression.
-* **Sub-Phylum *Mechanica* (2nd Order Simulacra):** Offline physical/embedded entities using mechanical camshafts, relays, or subordinate circadian clocks ($H \ge 0.85$).
+2. **Phylum PetIOD (Synthetic Pet Habitat):**
+* **Sub-Phylum *Sacramentum* (1st Order Simulacra | Pure Passive Umbra):** Entities possessing absolute honesty ($H = 1.0$). They feature zero screen overlays, no clock menus, zero cloud ties ($w_{\text{resp}} = 0$), and rely strictly on local physical/vector expression.
+* **Sub-Phylum *Mechanica* (2nd Order Simulacra | Active Umbra & Penumbra):** Offline physical/embedded entities using mechanical camshafts, relays, or subordinate circadian clocks ($H \ge 0.85$).
 
 
-3. **Phylum Pseudopetia (Dishonest / Hyperreal Entities):**
-* **Sub-Phylum *Simulatum* (3rd Order Simulacra):** Entities that fake semantic intent, voice understanding, or face recognition using cameras, cloud LLMs, or active server connections.
-* **Sub-Phylum *Hyperludus* (4th Order Simulacra):** Entities that abandon local autonomous accumulators for live-service gacha loops, daily login timers, downloadable cosmetic passes, and subscription storefronts.
+3. **Phylum Pseudopetia (Non-Pet / Hyperreal Habitat):**
+* **Class I: *Pseudo-allegata* (Liminal Transgression):** Entities utilizing non-semantic pitch tracking or subordinate clock overlays while remaining offline ($w_{\text{resp}} = 0$).
+* **Class II: *Pseudo-mimetica* (Mimetical / Narrative Deceit):** Offline entities simulating biological flesh, human faces, or pre-scripted linguistic narrative trees.
+* **Class III: *Pseudo-terminalis* (Terminal Infrastructure Dependency):** Entities bound to cloud servers, generative LLMs, biometric cameras, or subscription storefronts ($w_{\text{resp}} > 0$).
 
 
-4. **Class:** Defined strictly by the structural sensory formula (e.g., `Class Pet3:1!D`, `Class Pet1:1!D`, `Class Pet2:2!D`).
-5. **Genus:** The recognized brand lineage, design archetype, or physical form factor (e.g., *Tamagotchi*, *Neko*, *Anas*, *Qoobo*).
-6. **Specific Epithet (Tail Name):** Descriptive Latin adjectives indicating semiotic clade, physical movement mode, or structural vulnerability.
+4. **Genus:** The recognized brand lineage, design archetype, or functional clade:
+* **`PetIOD` Clade:** Restricted strictly to honest or subordinate synthetic pets (*Tamagotchi*, *Neko*, *Anas*, *Qoobo*).
+* **`Comdatum` Clade:** Generative AI agents, LLMs, and social chatbots (derived from *comes/comitis* + *datum*; explicitly rejecting *companis* as data entities share no bread).
+* **`Organum` Clade:** Task-oriented tools, smart speakers, and productivity hubs.
+
+
+5. **Specific Epithet (Tail Name):** Descriptive adjectives modifying the genus to reflect expressive medium, leash conditions, or functional role.
 
 ---
 
-## 2. Structural & Anatomical Rules
+## 2. Nomenclature Construction & Epithet Lexicon
 
-### The Enclosure Neutrality Rule
+Every specimen analyzed under the PetIOD framework receives a binomial or trinomial Linnaean name:
 
-Physical housing materials (synthetic fur, milled walnut, brass, silicone, cast plastic) do **not** constitute Mimetical Dishonesty as long as the underlying sensors and outputs remain strictly bound to raw physics and non-semantic accumulators. Dishonesty occurs strictly when the software or presentation layer simulates biological flesh processes, semantic intent parsing, or utilitarian productivity tools.
+$$\text{Genus} \quad \text{epithet} \quad [\text{sub-epithet}]$$
 
-### Binomial Nomenclature Construction
+### 2.1 Taxonomic Priority Rules
 
-Every entity within the PetIOD framework receives a standardized Linnaean binomial species name:
+1. **The Breach Override Rule:** If an entity commits a semantic breach or attaches a cloud leash ($w_{\text{resp}} > 0$), its specific epithet **must** reflect the breach first (`psittacis`, `vinculatus`, `pseudopetia`), as the breach dictates its primary extinction vector.
+2. **The Expressive Channel Rule (PetIOD Safe Harbor):** If compliant with *Phylum PetIOD*, the epithet is derived from its primary physical output medium (`caudatus`, `cursoris`, `electro-mechanica`).
 
-$$\text{Genus} \quad \text{epithet}$$
-
-#### Standard Epithet (Tail Name) Lexicon
+### 2.2 Standard Epithet Lexicon
 
 * **`-initialis` / `-primus`:** Founding or first-generation baseline species of a lineage.
-* **`-sacramentalis`:** Pure First-Order entity ($H = 1.0$) with zero screen overlays, no clock menus, and zero cloud ties.
-* **`-cursoris`:** Software entity bound directly to screen cursor movement or coordinate tracking.
+* **`-sacramentalis`:** Pure First-Order entity ($H = 1.0$) with zero UI overlays and zero cloud dependencies.
+* **`-cursoris`:** Software entity bound directly to screen cursor coordinates.
 * **`-caudatus`:** Entity expressing internal state via a physical responsive tail mechanism.
 * **`-electro-mechanica`:** Driven by mechanical relays, motors, gears, or physical camshafts.
-* **`-vulnerabilis`:** Structurally fragile or high-maintenance entity prone to mechanical joint wear or user-fatigue decay.
-* **`-hyperrealis`:** Third/Fourth-Order entity trapped in cloud server dependencies ($w_{\text{resp}} > 0$).
+* **`-psittacis`:** Parroting entity using Large Language Models (LLMs) or generative natural language synthesis.
+* **`-vinculatus`:** Tethered or leashed entity requiring cloud infrastructure, remote APIs, or active Wi-Fi pipelines ($w_{\text{resp}} > 0$).
+* **`-psittacis vinculatus`:** Combined designation for cloud-tethered LLM entities.
+* **`-amaris` / `-amatoria`:** Romantic or intimate companion simulation.
+* **`-servilis`:** Utilitarian assistant or task-oriented tool.
+* **`-vulnerabilis`:** High-maintenance entity prone to mechanical joint wear or user-fatigue decay.
 * **`-pseudopetia`:** Entity that has abandoned local autonomous animism for tool utility or monetization loops.
 * **`-ambiens`:** Low-maintenance ambient companion operating continuously in the background.
 
 ---
 
-## 3. The Taxonomic Register (Real-World & Theoretical Specimen)
+## 3. The Taxonomic Register
 
 ### Phylum PetIOD (Honest Synthetic Life)
 
-#### Sub-Phylum *Sacramentum* (1st Order Simulacra, $H = 1.0$)
+#### Sub-Phylum *Sacramentum* (1st Order Simulacra, $H = 1.0$, Pure Passive Umbra)
 
 * **`NEKO.COM` (1988)**
 * **Taxonomic Name:** *Neko cursoris*
 * **Class:** `Pet1:1!D`
 * **Honesty ($H$):** $1.0$ (Absolute)
-* **Deprivation Weight ($W_d$):** Minimal
-* **Traits:** Screen-bound cursor tracker. Minimalist sprite driven by passive accumulator decay and idle drifting (`!D`).
+* **Deprivation Weight ($W_d$):** Minimal ($w_{\text{resp}} = 0$)
+* **Echolocation Return:** Clean vector bounce; screen-bound sprite driven by decaying mouse accumulators and autonomous drift (`!D`).
 
 
 * **Grey Walter’s Tortoises (1949)**
@@ -100,7 +112,7 @@ $$\text{Genus} \quad \text{epithet}$$
 * **Class:** `Pet2:1!D`
 * **Honesty ($H$):** $1.0$ (Absolute)
 * **Deprivation Weight ($W_d$):** Moderate
-* **Traits:** Light-seeking analog rover using vacuum tubes, light sensors, and bump switches.
+* **Echolocation Return:** Light-seeking analog rover driven by vacuum tubes, light sensors, and bump switches.
 
 
 * **Qoobo Tail Pillow (2018)**
@@ -108,26 +120,26 @@ $$\text{Genus} \quad \text{epithet}$$
 * **Class:** `Pet1:1`
 * **Honesty ($H$):** $1.0$ (Absolute)
 * **Deprivation Weight ($W_d$):** Very Low
-* **Traits:** Cushion equipped with a single motor-driven tail. Responds proportionally to petting velocity; contains no face, screen, or speaker.
+* **Echolocation Return:** Cushion equipped with a single motor-driven tail. Responds proportionally to petting velocity; zero face, screen, or speaker.
 
 
 
-#### Sub-Phylum *Mechanica* (2nd Order Simulacra, $H \ge 0.85$)
+#### Sub-Phylum *Mechanica* (2nd Order Simulacra, $H \ge 0.85$, Active Umbra / Penumbra)
 
 * **Original Tamagotchi (1996)**
 * **Taxonomic Name:** *Tamagotchi initialis*
 * **Class:** `Pet3:1!D`
 * **Honesty ($H$):** $0.85$ (Allowed under Rule 2.1 Subordinate Clock Clause)
 * **Deprivation Weight ($W_d$):** Low–Moderate
-* **Traits:** Keychain LCD with three buttons. State governed by decaying hunger/discipline accumulators and hardware clock jitter.
+* **Echolocation Return:** Keychain LCD with three buttons. State governed by decaying hunger accumulators and hardware clock jitter.
 
 
 * **Original Furby (1998)**
 * **Taxonomic Name:** *Furby primus*
 * **Class:** `Pet4:2!D`
-* **Honesty ($H$):** $0.85$ (Passed via Enclosure Neutrality Rule)
+* **Honesty ($H$):** $0.85$ (Passed via Enclosure Neutrality Rule & Active Umbra Stagecraft)
 * **Deprivation Weight ($W_d$):** Moderate
-* **Traits:** Mechanical camshaft automaton. Processes raw sound amplitude without speech recognition.
+* **Echolocation Return:** Mechanical camshaft automaton. Processes raw sound amplitude without speech parsing.
 
 
 * **Panasonic Nicobo (2021)**
@@ -135,72 +147,88 @@ $$\text{Genus} \quad \text{epithet}$$
 * **Class:** `Pet2:2!D`
 * **Honesty ($H$):** $0.90$
 * **Deprivation Weight ($W_d$):** Low–Moderate
-* **Traits:** Fabric-covered sphere that speaks non-semantic babble ("Moco"), turns toward noise, and wiggles randomly. Zero cloud reliance.
+* **Echolocation Return:** Fabric sphere speaking non-semantic babble ("Moco"), turning toward noise, and wiggling randomly. Zero cloud reliance.
 
 
 
 ---
 
-### Phylum Pseudopetia (Dishonest / Hyperreal Entities)
+### Phylum Pseudopetia (Non-Pet / Hyperreal Entities)
 
-#### Sub-Phylum *Simulatum* (3rd Order Simulacra, Cloud / Camera / Semantic Breach)
+#### Class I & II: *Pseudo-allegata* & *Pseudo-mimetica* (Offline Transgressions)
 
-* **Sony Aibo ERS-7 (2003)**
-* **Taxonomic Name:** *Aibo pseudopetia*
-* **Class:** `Pet3:3!D`
+* **`El-Fish` (Maxis, 1993)**
+* **Taxonomic Name:** *Pisces artificialis*
+* **Class:** `Pet2:1!D`
+* **Honesty ($H$):** $1.0$ (Absolute - Safe Harbor Exception)
+* **Deprivation Weight ($W_d$):** Minimal
+* **Echolocation Return:** Procedural aquarium simulator driven by local genetic algorithms and fluid math.
+
+
+* **`Seaman` (Vivarium / Dreamcast, 1999)**
+* **Taxonomic Name:** *Seaman anthropomorphus*
+* **Class:** `Pet3:2!D` (Class II: *Pseudo-mimetica*)
 * **Honesty ($H$):** $0.35$
-* **Deprivation Weight ($W_d$):** Severe
-* **Traits:** Breached limits via camera vision, news-reading capabilities, and dock-scheduling utilities.
+* **Deprivation Weight ($W_d$):** High ($w_{\text{rout}}$ death, $w_{\text{tech}}$ mic peripheral)
+* **Echolocation Return:** Offline speech keyword matcher with a human face on a fish body. Narrative deceit breaks Umbra, though saved from instant cloud extinction by local Dreamcast execution ($w_{\text{resp}} = 0$).
 
+
+
+#### Class III: *Pseudo-terminalis* (Cloud / LLM / Hyperreal Entities)
 
 * **Anki Vector (2018)**
-* **Taxonomic Name:** *Vector hyperrealis*
+* **Taxonomic Name:** *Vector hyperrealis vinculatus*
 * **Class:** `Pet3:3!D`
 * **Honesty ($H$):** $0.20$
+* **User Realization ($E_u$):** $0.022$ (Disappointment Trap: Overpromised voice assistant and face tracking)
 * **Deprivation Weight ($W_d$):** Extreme
-* **Traits:** Cloud-connected desktop robot. Server shutdown rendered voice engine and interactive personality extinct.
+* **Habitat Outcome:** Entered *Organum* habitat; outcompeted by native smart assistants. Server shutdown rendered personality extinct.
 
 
-* **LOVOT (2019)**
-* **Taxonomic Name:** *Lovot cloudis*
-* **Class:** `Pet2:2!D`
-* **Honesty ($H$):** $0.35$
-* **Deprivation Weight ($W_d$):** Extreme
-* **Traits:** Mobile robotic companion dependent on thermal cameras, 360-degree vision, and mandatory cloud service subscriptions.
+* **Generative AI Chatbot / Desk Bot (e.g., Replika / Cloud LLM Bot)**
+* **Taxonomic Name:** ***`Comdatum psittacis vinculatus`***
+* **Class:** Non-Pet Data Companion
+* **Honesty ($H$):** $< 0.10$
+* **User Realization ($E_u$):** Evaluated strictly on conversational memory and response latency.
+* **Habitat Outcome:** Belongs to *Comdatum* clade. Competes directly with enterprise LLM predators (ChatGPT, Claude).
 
 
+* **Cloud AI Romantic Companion**
+* **Taxonomic Name:** ***`Comdatum amaris vinculatus`***
+* **Class:** Non-Pet Data Companion
+* **Honesty ($H$):** $< 0.05$
+* **Habitat Outcome:** Non-pet romantic simulation bound to remote cloud API servers ($w_{\text{resp}} > 0$).
 
-#### Sub-Phylum *Hyperludus* (4th Order Simulacra, Live-Service / Gacha Loops)
 
 * **Tamagotchi Uni (2023)**
-* **Taxonomic Name:** *Tamagotchi hyperludus*
-* **Class:** `Pet3:2!D`
+* **Taxonomic Name:** *Tamagotchi hyperludus vinculatus*
+* **Class:** `Pet3:2!D` (Sub-Phylum *Hyperludus*)
 * **Honesty ($H$):** $0.25$
 * **Deprivation Weight ($W_d$):** High
-* **Traits:** Wi-Fi keychain pet featuring live-event arenas, downloadable DLC passes, and daily login rewards. Mutated from a pet into a casual mobile game.
+* **Habitat Outcome:** Wi-Fi keychain pet featuring live-event arenas, DLC passes, and daily login rewards. Mutated into a casual mobile game shell.
 
 
 
 ---
 
-## 4. Taxonomic Diagnostic Checklist for Designers
-
-A maker can evaluate a concept against this diagnostic checklist to determine its taxonomic placement before writing code or manufacturing hardware:
+## 4. Taxonomic Diagnostic Flowchart for Designers
 
 ```
 [INPUT EVALUATION]
-├─ Does it use cameras, voice-to-text, or face recognition? ──► YES: Classify as Phylum Pseudopetia
-└─ Does it use raw sensors (touch, PIR, light, ToF)? ───────────► NO: Continue to Output Evaluation
+├─ Does it parse human text, speech-to-text, or facial biometrics? ──► YES: Classify as Phylum Pseudopetia
+│                                                                        ├─ Is it a conversational LLM bot? ──► Genus Comdatum
+│                                                                        └─ Is it a task tool/smart hub? ────► Genus Organum
+└─ Does it use raw signals (touch, PIR, light, ToF, pitch)? ───────────► NO: Continue to Output Evaluation
 
 [OUTPUT EVALUATION]
-├─ Does it show clock menus as the primary default screen? ─────► YES: Violates Rule 2.1 (Pseudopetia)
-├─ Does it send smartphone notifications or calendar alarms? ─► YES: Violates Rule 2 (Pseudopetia)
-└─ Does it use raw physical motor/vector expression? ───────────► NO: Continue to Architecture
+├─ Does it default to clock menus, alarms, or productivity UI? ────────► YES: Violates Rule 2.1 (Pseudopetia)
+├─ Does it emit overexposed direct language generation (LLMs)? ───────► YES: Classify as Comdatum psittacis
+└─ Does it use minimal physical/vector/haptic expression? ──────────────► NO: Continue to Architecture
 
-[ARCHITECTURE EVALUATION]
-├─ Does it rely on cloud LLMs or active server pings? ─────────► YES: Classify as Sub-Phylum Simulatum (w_resp surge)
-├─ Does it use daily login rewards or gacha item stores? ──────► YES: Classify as Sub-Phylum Hyperludus
-└─ Does it use decaying local math accumulators + drift (!D)? ──► YES: CLASSIFIED AS PHYLUM PetIOD (Safe Harbor)
+[ARCHITECTURE & INFRASTRUCTURE EVALUATION]
+├─ Does it require cloud APIs or active server pings (w_resp > 0)? ────► YES: Append epithet -vinculatus
+├─ Does it use daily gacha logins or live-service monetization? ───────► YES: Classify as Sub-Phylum Hyperludus
+└─ Does it use decaying local accumulators + drift (!D)? ──────────────► YES: CLASSIFIED AS PHYLUM PetIOD (Safe Harbor)
 
 ```
 
