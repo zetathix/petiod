@@ -411,7 +411,9 @@ The **Specific Epithet** indicates the entity's semiotic clade, sensory profile,
 * **`-hyperrealis`:** Third/Fourth-Order entity trapped in cloud server dependencies ($w_{\text{resp}} > 0$).
 * **`-pseudopetia`:** Entity that has abandoned local autonomous animism for tool utility or monetization loops.
 * **`-ambiens`:** Low-maintenance ambient companion operating continuously in the background.
-
+* **`-vinculatus`:** (Tethered / Leashed / Cloud-Chained): Indicates an entity bound to external infrastructure, remote server APIs, active Wi-Fi pipelines, or central authorization servers ($w_{\text{resp}} > 0$). Denotes high exposure to server-sunset extinction events.
+* **`-psittacis`**: (Parroting / Generative LLM Speech) Indicates an entity using Large Language Models or natural language text synthesis to feign conversational intelligence.
+* **`-psittacis vinculatus`**: (Cloud-Tethered LLM Entity) Combined designation for entities that offload generative speech synthesis to remote cloud LLM APIs.
 ---
 
 ## 11. Conceptual Medium Blueprints
