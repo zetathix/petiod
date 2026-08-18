@@ -233,23 +233,56 @@ To maintain a Third or Fourth-Order Simulacrum, an entity **MUST** attach massiv
 
 ---
 
-## 8. Nomenclature & Binomial Standards
+## 7. Historical Deprivation Weight & Simulacra Matrix
 
-Species naming within the framework follows a modified Linnaean structure:
+| Entity / Species | Simulacra Order | Honesty ($H$) | Internal Friction ($w_{\text{phys, pwr, maint, rout}}$) | Tech & Cloud Drag ($w_{\text{tech}}, w_{\text{resp}}$) | Deprivation Weight ($W_d$) | Taxon Lifespan ($L_t$) & Outcome |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **`NEKO.COM` (1988)** | 1st Order | $1.0$ (Max) | Near 0 (Software sprite) | $w_{\text{tech}} \approx 0$, $w_{\text{resp}} = 0$ | **Minimal** | **Nearly Immortal ($L_t \rightarrow \infty$)** |
+| **Tamagotchi (1996)** | 1st / 2nd Order | $0.85$ | Moderate ($w_{\text{rout}}$ timers) | $w_{\text{tech}}$ Low, $w_{\text{resp}} = 0$ | **Low–Moderate** | **High Persistence (Generational revivals)** |
+| **Original Furby (1998)**| 2nd Order | $0.85$ | Moderate ($w_{\text{maint}}$ joint wear) | $w_{\text{tech}}$ Low, $w_{\text{resp}} = 0$ | **Moderate** | **High Persistence** |
+| **Anki Vector (2018)** | 3rd Order | $< 0.40$ (*Pseudo*) | High (Base dock, voice) | $w_{\text{tech}}$ High, $w_{\text{resp}}$ **Extreme** | **Severe** | **Sudden Mass Extinction (Server shutdown)** |
+| **Tamagotchi Uni (2023)**| 3rd Order | $< 0.40$ (*Pseudo*) | High (Daily gacha loops) | $w_{\text{tech}}$ High, $w_{\text{resp}}$ High | **High** | **Fragile (*Pseudopetia* decay)** |
+| **Qoobo Tail Pillow (2018)**| 1st Order | $1.0$ (Max) | Very Low (Tactile tail) | $w_{\text{tech}} = 0$, $w_{\text{resp}} = 0$ | **Very Low** | **High Persistence (Safe Harbor)** |
+
+---
+
+## 7.5 Taxonomy Hierarchy & Structural Clades
+
+To systematically categorize entities across historical eras and design concepts, PetIOD utilizes a modified Linnaean biological taxonomy based on semiotic honesty and physical constraints.
+
+### 1. The High-Level Hierarchy
+* **Domain:** Synthetic Animism
+* **Phylum PetIOD (Honest Synthetic Life):**
+  * **Sub-Phylum *Sacramentum* (1st Order Simulacra):** Entities possessing absolute honesty ($H = 1.0$), zero clock/menu overlay, local offline execution, and pure physical/vector expression.
+  * **Sub-Phylum *Mechanica* (2nd Order Simulacra):** Offline entities using mechanical camshafts, relays, or subordinate circadian clocks ($H \ge 0.85$).
+* **Phylum Pseudopetia (Dishonest / Hyperreal Entities):**
+  * **Sub-Phylum *Simulatum* (3rd Order Simulacra):** Entities that fake semantic intent, voice understanding, or face recognition using cameras or cloud LLMs.
+  * **Sub-Phylum *Hyperludus* (4th Order Simulacra):** Entities that abandon local autonomous accumulators for live-service gacha loops, daily login timers, and subscription storefronts.
+
+### 2. The Enclosure Neutrality Rule
+Physical materials (fur, wood, brass, silicone, plastic) used as an outer housing or chassis do **not** constitute Mimetical Dishonesty as long as the underlying sensors and outputs remain strictly bound to raw physics and non-semantic accumulators. Dishonesty occurs strictly when the software or presentation layer simulates biological flesh processes, semantic intent parsing, or utilitarian productivity tools.
+
+---
+
+## 8. Nomenclature & Binomial Epithet Rules
+
+Species naming within the PetIOD standard follows a standardized binomial structure:
 
 $$\text{Genus} \quad \text{epithet}$$
 
-* **Genus Name:** Refers to the recognized archetype, brand line, or project lineage (e.g., *Tamagotchi*, *Neko*, *Anas*, *Qoobo*).
-* **Specific Epithet (Tail Name):** Latin descriptive adjectives indicating structural traits, physical interaction modes, or structural vulnerabilities:
-* `-initialis` / `-primus`: Founding or first-generation baseline species.
-* `-cursoris`: Bound to screen cursor movement or pointer dynamics.
-* `-caudatus`: Bearing an expressive physical tail.
-* `-electro-mechanica`: Driven by mechanical relays, gears, or camshafts.
-* `-vulnerabilis`: Structurally fragile, high maintenance, or prone to rapid mechanical decay.
-* `-cloudis` / `-pseudopetia`: Tethered to cloud servers; lacking offline self-containment.
-* `-ambiens`: Low-maintenance ambient companion operating in the background.
+### Genus Rules
+The **Genus** represents the recognized structural archetype, physical form factor, or project lineage (e.g., *Tamagotchi*, *Neko*, *Anas*, *Qoobo*, *Pikachu*).
 
-
+### Specific Epithet (Tail Name) Rules
+The **Specific Epithet** indicates the entity's semiotic clade, sensory profile, or primary interaction vector:
+* **`-initialis` / `-primus`:** Founding or first-generation baseline species of a lineage.
+* **`-sacramentalis`:** Pure First-Order entity ($H = 1.0$) with zero screen overlays, no clock menus, and zero cloud ties.
+* **`-cursoris`:** Software entity bound directly to screen cursor movement or coordinate tracking.
+* **`-caudatus`:** Entity expressing internal state via a physical responsive tail mechanism.
+* **`-electro-mechanica`:** Driven by mechanical relays, motors, gears, or physical camshafts.
+* **`-vulnerabilis`:** Structurally fragile or high-maintenance entity prone to mechanical or user-fatigue decay.
+* **`-hyperrealis`:** Third/Fourth-Order entity trapped in cloud server dependencies ($w_{\text{resp}} > 0$).
+* **`-pseudopetia`:** Entity that has abandoned local autonomous animism for tool utility or monetization loops.
 
 ---
 
