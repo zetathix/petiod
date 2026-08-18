@@ -1,4 +1,4 @@
-# **PetOID Taxonomy & Binomial Nomenclature (v1)**
+# **PetIOD Taxonomy & Binomial Nomenclature (v1)**
 
 This document formalizes the taxonomic system for synthetic pets, software anims, and autonomous robotic companions. It establishes a modified Linnaean hierarchy, precise Latin suffix rules, and a full species register classified by PetI:O\!D structural notation, Honesty Index (![][image1]), and Deprivation Weight (![][image2]).
 
