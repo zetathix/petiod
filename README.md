@@ -1,23 +1,50 @@
-# The PetIOD Specification & Design Framework (v5)
+# The PetIOD Specification & Design Framework (v6)
 
-**Document Version:** 5.0  
-**Standard Name:** PetIOD (Formerly *petXX* / *PetI:O!D*)  
-**Core Thesis:** Minimal Animism Through Structural Constraints, Optical Umbra Projection, and Stagecraft Mechanics  
+**Document Version:** 6.0  
+**Standard Name:** PetIOD (Input / Output / Driver)  
+**Core Philosophy:** Minimal Animism Through Structural Constraints, Optical Umbra Projection, and Habitat Boundary Isolation  
 
 ---
 
-## 1. Executive Summary & Philosophy
+## 1. Domain Scope & Philosophy
 
-**PetIOD** is an open architectural standard, taxonomic framework, and design philosophy for synthetic companions, virtual pets, and ambient kinetic entities. Its core foundational principle is **Minimal Animism Through Structural Constraints**.
+### 1.1 The Domain Boundary Clause
+[cite_start]**PetIOD** is strictly an architectural standard, taxonomic framework, and design philosophy for **synthetic pets**—entities whose relationship with humans is established through non-semantic physical interaction, stacked mathematical accumulators, and structural constraints[cite: 1]. 
 
-A PetIOD entity is not a smart assistant, a productivity tool, a biomimetic fake, or a gamified retention loop. It is a digital or kinetic companion that remains fiercely, unapologetically honest to its own synthetic anatomy. Its internal state does not rely on linguistic processing, camera vision, or complex human-facing algorithms, but emerges naturally from the friction between physical reality, stacked mathematical vectors, decaying memory pools, and autonomous digital chaos.
+It is **not** a normative standard for evaluating human-facing productivity tools, smart home assistants, conversational AI agents, or artificial human companions. When a device transitions into generative natural language, romantic simulation, or task management, it leaves the ecological niche of synthetic pets entirely. Non-pet artificial lifeforms possess their own distinct evolutionary habitats, design requirements, and taxonomic clades.
 
-### The Psychology of Minimal Animism
-True synthetic companionship is built on **uncontrollable presence, raw interaction, and human self-biased projection**—not utility, compliance, or false intelligence:
+```mermaid
+graph TD
+    Domain["Domain: Synthetic Animism"]
+    
+    Domain --> Clade1["Phylum PetIOD
+    (Synthetic Pet Habitat)"]
+    Domain --> Clade2["Phylum Pseudopetia
+    (Non-Pet / Hyperreal Habitat)"]
+    
+    Clade1 --> Pet1["Local Minimal Animism
+    (Non-semantic math, Umbra projection)"]
+    
+    Clade2 --> NonPet1["Comdatum Clade
+    (Data Companions / Chatbots / LLMs)"]
+    Clade2 --> NonPet2["Organum Clade
+    (Tools / Assistants / Smart Hubs)"]
+    Clade2 --> NonPet3["Hyperludus Clade
+    (Gacha / Live-Service Game Shells)"]
+
+```
+
+---
+
+### 1.2 The Psychology of Minimal Animism: Anthropomorphic Psychological Echolocation
+
+Synthetic pet companionship relies on **uncontrollable presence, raw sensory interaction, and human self-biased projection**—not utility, compliance, or feigned intelligence:
 
 1. **Uncontrollability as Proof of Existence:** A real pet can ignore you, sleep when you want to play, or wander off. Under PetIOD, Rule 4 (The Irregularity Driver) guarantees this exact autonomy. An entity that responds predictably to every input is not an organism; it is a light switch.
-2. **The Human Projection Engine:** Humans do not require a companion to speak human words or show photorealistic faces. When a cat tilts its head or an abstract vector line bends, the human mind fills the void with meaning.
-3. **The Anthropomorphic Narcissism Trap:** Demanding that a synthetic entity speak human language, answer trivia, or manage calendars forces the entity to mirror human context rather than respecting its non-human existence. The moment a designer introduces an LLM or voice parser, they destroy the projection engine. The user stops interpreting subtle physical behaviors and begins evaluating functional accuracy, destroying the animistic bond.
+
+
+2. **Anthropomorphic Psychological Echolocation:** Rather than an act of human narcissism, the desire to project intention onto a companion is a natural cognitive process. Humans continuously emit subtle social and emotional signals into their environment. When interacting with a constrained interface, this projection bounces back off the entity’s non-semantic responses—much like echolocation—allowing the user’s own imagination to map a deep, personalized emotional bond onto minimal mathematical cues.
+3. **The Intention Alignment Spectrum:** Humans naturally seek **Affective Attunement** (sensing mutual presence, gaze tracking, non-semantic warmth) rather than **Semantic Processing** (parsing instructions, managing calendars). When a designer introduces natural language or complex screens, they force the user to abandon affective echolocation and begin evaluating functional accuracy, converting a living companion into an assistant.
 
 ---
 
@@ -48,6 +75,8 @@ graph TD
 
 3. **The Penumbra (The Blur of Liminal Compromise):** The partial, fuzzy shadow surrounding the Umbra. Represents minor non-semantic features (subordinate circadian clocks, localized mechanical chirps). The edges of the illusion blur, but the core animistic bond remains intact if kept offline ($w_{\text{resp}} = 0$).
 4. **Antumbra & Direct Light (Hyperreal Exposure):** When a designer introduces direct language generation (LLMs), biometric cameras, or photorealistic biological skins, they shine direct, blinding light onto the canvas ($I_e \rightarrow \infty$). The shadow dissolves. The user becomes a critic testing a tool, destroying the animistic bond.
+
+---
 
 ### 2.2 The Inverse-Square Law of Exposure ($I_e$)
 
@@ -82,16 +111,37 @@ graph LR
 
 ### Formula Components
 
-* **`I` (Input Count):** The maximum number of raw physical sensory channels accepted by the entity (e.g., `3` for three mechanical buttons or spatial ToF sensors).
-* **`O` (Output Count):** The maximum number of expressive output channels (e.g., `1` for a single vector canvas or single haptic flywheel).
-* **`!D` (Irregularity Driver / Wandering Ghost):** An optional modifier denoted by an exclamation mark (`!`) followed by `D` (Driver). Indicates the presence of an active, unmapped chaotic noise source (e.g., floating analog pin noise, RTC jitter, system clock drift) driving internal accumulator mutation.
+* 
+**`I` (Input Count):** The maximum number of raw physical sensory channels accepted by the entity (e.g., `3` for three mechanical buttons or spatial ToF sensors).
+
+
+* 
+**`O` (Output Count):** The maximum number of expressive output channels (e.g., `1` for a single vector canvas or single haptic flywheel).
+
+
+* 
+**`!D` (Irregularity Driver / Wandering Ghost):** An optional modifier denoted by an exclamation mark (`!`) followed by `D` (Driver). Indicates the presence of an active, unmapped chaotic noise source (e.g., floating analog pin noise, RTC jitter, system clock drift) driving internal accumulator mutation.
+
+
 
 ### Notation Examples
 
-* **`Pet1:1!D`** — 1 Input, 1 Output, with active Irregularity Driver (e.g., *Neko cursoris*, 1988).
-* **`Pet3:1!D`** — 3 Inputs, 1 Output, with active Irregularity Driver (e.g., *Tamagotchi initialis*, 1996).
-* **`Pet4:2!D`** — 4 Inputs, 2 Outputs, with active Irregularity Driver (e.g., *Furby primus*, 1998).
-* **`Pet1:1`** — 1 Input, 1 Output, without an autonomous drift driver (e.g., *Qoobo caudatus*, 2018).
+* 
+**`Pet1:1!D`** — 1 Input, 1 Output, with active Irregularity Driver (e.g., *Neko cursoris*, 1988).
+
+
+* 
+**`Pet3:1!D`** — 3 Inputs, 1 Output, with active Irregularity Driver (e.g., *Tamagotchi initialis*, 1996).
+
+
+* 
+**`Pet4:2!D`** — 4 Inputs, 2 Outputs, with active Irregularity Driver (e.g., *Furby primus*, 1998).
+
+
+* 
+**`Pet1:1`** — 1 Input, 1 Output, without an autonomous drift driver (e.g., *Qoobo caudatus*, 2018).
+
+
 
 ---
 
@@ -101,8 +151,14 @@ graph LR
 
 An entity is strictly bounded by its physical sensory count (`I`). A maker selects a maximum number of raw physical sensors matching `I`.
 
-* **Allowed:** PIR (thermal vectors), Microphones (acoustic amplitude), ToF (spatial mass), Photoresistors (light density), Accelerometers (kinetic momentum), Piezo/Touch sensors, Mechanical switches.
-* **Forbidden:** Cameras, internet-dependent data streams, and any form of natural language or semantic speech processing.
+* 
+**Allowed:** PIR (thermal vectors), Microphones (acoustic amplitude), ToF (spatial mass), Photoresistors (light density), Accelerometers (kinetic momentum), Piezo/Touch sensors, Mechanical switches.
+
+
+* 
+**Forbidden:** Cameras, internet-dependent data streams, and any form of natural language or semantic speech processing.
+
+
 
 #### Rule 1.1: The Alleged Transgression Clause (Signal vs. Semantics)
 
@@ -115,8 +171,14 @@ A sensory channel that processes non-semantic physical signal properties does no
 
 An entity is strictly bounded by its expressive output count (`O`). The presentation must remain entirely transparent and honest to its medium.
 
-* **Allowed:** A physical kinetic solenoid tick, a shifting light wavelength, an abstract 2D vector coordinate drift on a screen, a localized frequency hum, haptic flywheel rotation.
-* **Forbidden:** Simulated biological skins, complex multi-layered UI menus, or utilitarian features (clocks, notifications, media controls).
+* 
+**Allowed:** A physical kinetic solenoid tick, a shifting light wavelength, an abstract 2D vector coordinate drift on a screen, a localized frequency hum, haptic flywheel rotation.
+
+
+* 
+**Forbidden:** Simulated biological skins, complex multi-layered UI menus, or utilitarian features (clocks, notifications, media controls).
+
+
 
 #### Rule 2.1: The Subordinate Utility Exemption (The Circadian Clock Clause)
 
@@ -156,47 +218,64 @@ $$H = \frac{\text{Animistic Behaviors}}{\text{Animistic Behaviors} + \text{Utili
 
 ---
 
-## 6. Deprivation Weight ($W_d$) & Utility Expectation Metrics
+## 6. Deprivation Weight ($W_d$) & User Expectation Realization
 
-The operational lifespan and historical survival of a synthetic species (*Taxon Age*, denoted as $L_t$) is inversely proportional to its **Deprivation Weight ($W_d$)**, modulated by the **Expectation Performance Ratio ($E$)** and **Exposure Intensity ($I_e$)**:
+The operational lifespan and historical survival of a synthetic species (*Taxon Age*, denoted as $L_t$) is inversely proportional to its **Deprivation Weight ($W_d$)**, modulated by user expectation baselines and product realization ratios:
 
-$$W_d = (w_{\text{phys}} + w_{\text{pwr}} + w_{\text{maint}} + w_{\text{rout}}) + \frac{I_e}{E} (w_{\text{tech}} + w_{\text{resp}})$$
+$$W_d = (w_{\text{phys}} + w_{\text{pwr}} + w_{\text{maint}} + w_{\text{rout}}) + \frac{I_e}{E_u} (w_{\text{tech}} + w_{\text{resp}})$$
 
-### The Expectation Performance Equation
+### 6.1 The Unified User Expectation Performance Score ($E_u$)
 
-$$E = \frac{\alpha \cdot T_{\text{era}}}{U_s}$$
+Instead of accusing human users of unrealistic expectations, $E_u$ evaluates the gap between the user's personal hope baseline and the product's actual hardware/software execution:
 
-1. **Promised Utility Scope ($U_s \ge 1$):** A discrete count of utility/smart features promised to or expected by the user ($U_s = \sum \text{Utility Features}$). For pure PetIOD entities ($H = 1.0$), $U_s = 0$ and $E$ is non-applicable.
-2. **Historical Era Tech Baseline ($T_{\text{era}}$):** A qualitative benchmark assigned on a bounded continuous scale of $[0.1, 1.0]$ representing state-of-the-art technology at release ($0.1–0.3$ for 1980s microcontrollers; $0.7–1.0$ for 2020s modern edge NPUs/LLMs).
-3. **Subjective Ability Coefficient ($\alpha$):** A human-evaluated performance score assigned on a bounded continuous scale of $[-1.0, 1.0]$:
-* **$\alpha = 1.0$ (Flawless Execution):** Features work seamlessly without failure.
-* **$\alpha = 0.0$ (Barely Functional):** Unreliable voice parsing, frequent dropouts.
-* **$\alpha < 0.0$ (Destructive Execution, $[-1.0, -0.1]$):** Active failure causing user frustration, crashes, or bricking.
+$$E_u = \frac{\rho_{\text{real}}}{U_s \cdot \beta_{\text{hope}}}$$
+
+1. **Promised Utility Scope ($U_s \ge 1$):** A discrete count of utility/smart features promised or expected ($U_s = \sum \text{Utility Features}$). For pure PetIOD entities ($H = 1.0$), $U_s = 0$ and $E_u$ is non-applicable.
+2. **User Hope Baseline ($\beta_{\text{hope}} \in [0.1, 2.0]$):** A multiplier representing the user's personal expectation threshold:
+* **$\beta_{\text{hope}} = 0.1 – 0.5$ (Low Expectation / High Suspension of Disbelief):** Easily delighted by minimal movement (High Umbra tolerance).
+* **$\beta_{\text{hope}} = 1.0$ (Standard Expectation):** Expects standard, responsive pet behaviors.
+* **$\beta_{\text{hope}} = 1.5 – 2.0$ (High Intention Demand):** Expects smart assistant intelligence, conversational memory, or flawless intent parsing.
 
 
+3. **Product Realization Ratio ($\rho_{\text{real}} \in [-1.0, 1.0]$):** Measures the alignment between available era technology ($T_{\text{era}}$) and actual hardware/software performance ($\alpha$):
+
+$$\rho_{\text{real}} = \alpha \cdot \left(\frac{\text{Actual Hardware Performance}}{T_{\text{era}}}\right)$$
+
+* **$E_u \ge 1.0$ (Expectation Fulfilled):** Realization meets or exceeds expectations. Disappointment drag stays suppressed.
+* **$E_u \ll 1.0$ (The Disappointment Trap):** Promised features ($U_s$) or user hopes ($\beta_{\text{hope}}$) far outstrip realization ($\rho_{\text{real}}$). The term $\frac{1}{E_u}$ surges, amplifying friction and accelerating species extinction ($L_t \rightarrow 0$).
 
 ---
 
-## 7. Theoretical Semiotics: Baudrillard's Simulacra & Extinction Dynamics
+## 7. Habitat Boundaries & Ecological Apex Predators
 
-```mermaid
-flowchart TD
-    A["1st Order: Sacramental Sign (H = 1.0, Pure Umbra)"] -->|Mass Production| B["2nd Order: Perversion / Copy (H ≈ 0.85, Penumbra)"]
-    B -->|Semantic / Cloud Breach| C["3rd Order: Hyperreality / Sorcery (H < 0.40, Direct Light)"]
-    C -->|Loss of Desert of Real| D["4th Order: Pure Simulacrum / Extinction"]
+When an entity steps out of *Phylum PetIOD* and enters *Phylum Pseudopetia*, it enters an entirely different ecological habitat populated by native apex predators.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                          SYNTHETIC ECOLOGY HABITATS                             │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ HABITAT A: PetIOD Safe Harbor                                                   │
+│   • Population: Pure local math entities (Neko, Tamagotchi, Qoobo)              │
+│   • Apex Predators: NONE. Immune due to minimal friction and high Umbra.        │
+│                                                                                 │
+│ HABITAT B: Comdatum Niche (Data Companions & Generative Chatbots)              │
+│   • Population: Comdatum psittacis vinculatus                                   │
+│   • Apex Predators: Enterprise LLMs (ChatGPT, Claude), Native OS AI Assistants  │
+│                                                                                 │
+│ HABITAT C: Organum Niche (Tools & Productivity Platforms)                      │
+│   • Population: Smart speakers, desktop utility bots                            │
+│   • Apex Predators: Smartphones, Smartwatches, Smart Home Ecosystems            │
+└─────────────────────────────────────────────────────────────────────────────────┘
 
 ```
 
-### The Four Orders of Virtual Pet Simulacra
-
-1. **First-Order Simulacrum (Sacramental / Honest Placeholder):** `NEKO.COM`, *Tamagotchi initialis*. Pure self-contained math accumulators ($H = 1.0, w_{\text{resp}} = 0$).
-2. **Second-Order Simulacrum (Industrial Perversion):** 1998 *Furby primus*. Offline camshafts and microcontrollers ($H \ge 0.85$).
-3. **Third-Order Simulacrum (Masking Absence of Reality - *Pseudopetia*):** *Anki Vector*, *Aibo ERS-1000*. Fakes language/faces via cloud APIs.
-4. **Fourth-Order Simulacrum (Hyperreality & Extinction):** User evaluates device as a clunky tool, triggering immediate species death ($L_t \rightarrow 0$).
+* **Why Pseudopetia Entities Collapse:** A synthetic pet that adds cloud LLMs or task management leaves the protected *PetIOD Safe Harbor*. In the *Comdatum* or *Organum* habitat, it must compete directly with native apex predators (smartphones, enterprise LLM APIs, OS smart assistants). Lacking dedicated computing infrastructure, the Pseudopetia entity is quickly outcompeted, abandoned, and driven to extinction.
 
 ---
 
-## 8. Taxonomy Hierarchy & Structural Clades
+## 8. Taxonomy Hierarchy & Binomial Standards
+
+### 8.1 The High-Level Hierarchy
 
 * **Domain:** Synthetic Animism
 * **Phylum PetIOD (Honest Synthetic Life):**
@@ -204,32 +283,54 @@ flowchart TD
 * **Sub-Phylum *Mechanica* (2nd Order Simulacra):** Offline entities using mechanical camshafts, relays, or subordinate circadian clocks ($H \ge 0.85$).
 
 
-* **Phylum Pseudopetia (Dishonest / Hyperreal Entities):**
-* **Class I: *Pseudo-allegata* (Alleged Transgression):** Local non-semantic pitch tracking, subordinate clocks ($w_{\text{resp}} = 0$).
-* **Class II: *Pseudo-mimetica* (Mimetical Deceit):** Offline entities simulating biological flesh, faces, or scripted dialogue trees.
-* **Class III: *Pseudo-terminalis* (Systemic Cloud / Live-Service Trap):** Cloud LLMs, camera facial recognition, gacha monetization ($w_{\text{resp}} > 0$).
+* **Phylum Pseudopetia (Non-Pet / Hyperreal Entities):**
+* **Genus *PetIOD* Clade:** Restricted strictly to honest/subordinate synthetic pets.
+* **Genus *Comdatum* Clade (Data Companions):** Conversational AI agents, LLMs, and social chatbots (derived from *comes/comitis* + *datum*; explicitly rejecting *companis* as digital entities share no bread).
+* **Genus *Organum* Clade (Tools / Assistants):** Utility devices, smart home hubs, and productivity platforms.
 
 
 
 ---
 
-## 9. Nomenclature & Binomial Epithet Rules
+### 8.2 Specific Epithet (Tail Name) Lexicon
 
 $$\text{Genus} \quad \text{epithet}$$
 
-### Specific Epithet (Tail Name) Lexicon
-
-* **`-initialis` / `-primus`:** Founding baseline species.
+* **`-initialis` / `-primus`:** Founding baseline species of a lineage.
 * **`-sacramentalis`:** Pure First-Order entity ($H = 1.0$, zero screens/cloud).
 * **`-cursoris`:** Screen sprite bound to cursor coordinates.
 * **`-caudatus`:** Physical responsive tail mechanism.
 * **`-electro-mechanica`:** Motor, relay, or camshaft automaton.
-* **`-psittacis`:** Parroting entity using Large Language Models (LLMs) or generative natural language synthesis.
+* **`-psittacis`:** Parroting entity using Large Language Models (LLMs) or generative text synthesis.
 * **`-vinculatus`:** Tethered or leashed entity requiring cloud infrastructure, remote APIs, or active Wi-Fi pipelines ($w_{\text{resp}} > 0$).
-* **`-psittacis vinculatus`:** Combined designation for cloud-tethered LLM entities (e.g., cloud conversational bots).
+* **`-psittacis vinculatus`:** Combined designation for cloud-tethered LLM entities.
+* **`-amaris` / `-amatoria`:** Romantic or intimate companion simulation.
+* **`-servilis`:** Utilitarian assistant or task-oriented tool.
 * **`-vulnerabilis`:** Structurally fragile or high-maintenance entity prone to mechanical joint wear or decay.
 * **`-pseudopetia`:** Entity that has abandoned local autonomous animism for tool utility or monetization loops.
 * **`-ambiens`:** Low-maintenance ambient background companion.
+
+---
+
+### 8.3 Non-Pet Nomenclature Examples
+
+1. **Cloud LLM Romantic Companion (e.g., Replika, Character.ai, Cloud LLM Desk Bot):**
+* **Taxonomic Name:** ***`Comdatum amaris vinculatus`*** (or *`Comdatum psittacis amaris vinculatus`*)
+* **Translation:** *A cloud-tethered, parroting data-companion for romantic simulation.*
+* **Diagnostic Meaning:** Not a pet (`PetIOD`). A data-companion (`Comdatum`) using generative text (`psittacis`) for romantic simulation (`amaris`) bound to cloud servers (`vinculatus`).
+
+
+2. **Local On-Device Conversational Chatbot:**
+* **Taxonomic Name:** ***`Comdatum psittacis`***
+* **Translation:** *An autonomous, on-device parroting data-companion.*
+* **Diagnostic Meaning:** Runs generative natural language locally ($w_{\text{resp}} = 0$), free of the cloud leash (`vinculatus`).
+
+
+3. **Cloud Smart Assistant (e.g., Alexa / Siri / Assistant Mode):**
+* **Taxonomic Name:** ***`Organum servilis vinculatus`***
+* **Translation:** *A cloud-tethered assistant tool.*
+
+
 
 ---
 
