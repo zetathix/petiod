@@ -1,21 +1,21 @@
-# The PetOID Specification & Design Framework (v3)
+# The PetIOD Specification & Design Framework (v3)
 
 **Document Version:** 3.0  
-**Standard Name:** PetOID (Formerly *petXX* / *PetI:O!D*)  
+**Standard Name:** PetIOD (Formerly *petXX* / *PetI:O!D*)  
 **Core Thesis:** Minimal Animism Through Structural Constraints & Semiotic Honesty  
 
 ---
 
 ## 1. Executive Summary & Philosophy
 
-**PetOID** is an open architectural standard, taxonomic framework, and design philosophy for synthetic companions, virtual pets, and ambient kinetic entities. Its core foundational principle is **Minimal Animism Through Structural Constraints**.
+**PetIOD** is an open architectural standard, taxonomic framework, and design philosophy for synthetic companions, virtual pets, and ambient kinetic entities. Its core foundational principle is **Minimal Animism Through Structural Constraints**.
 
-A PetOID entity is not a smart assistant, a productivity tool, a biomimetic fake, or a gamified retention loop. It is a digital or kinetic companion that remains fiercely, unapologetically honest to its own synthetic anatomy. Its internal state does not rely on linguistic processing, camera vision, or complex human-facing algorithms, but emerges naturally from the friction between physical reality, stacked mathematical vectors, decaying memory pools, and autonomous digital chaos.
+A PetIOD entity is not a smart assistant, a productivity tool, a biomimetic fake, or a gamified retention loop. It is a digital or kinetic companion that remains fiercely, unapologetically honest to its own synthetic anatomy. Its internal state does not rely on linguistic processing, camera vision, or complex human-facing algorithms, but emerges naturally from the friction between physical reality, stacked mathematical vectors, decaying memory pools, and autonomous digital chaos.
 
 ### The Psychology of Minimal Animism
 True synthetic companionship is built on **uncontrollable presence, raw interaction, and human self-biased projection**—not utility, compliance, or false intelligence:
 
-1. **Uncontrollability as Proof of Existence:** A real pet can ignore you, sleep when you want to play, or wander off. Under PetOID, Rule 4 (The Irregularity Driver) guarantees this exact autonomy. An entity that responds predictably to every input is not an organism; it is a light switch.
+1. **Uncontrollability as Proof of Existence:** A real pet can ignore you, sleep when you want to play, or wander off. Under PetIOD, Rule 4 (The Irregularity Driver) guarantees this exact autonomy. An entity that responds predictably to every input is not an organism; it is a light switch.
 2. **The Human Projection Engine:** Humans do not require a companion to speak human words or show photorealistic faces. When a cat tilts its head or an abstract vector line bends, the human mind fills the void with meaning.
 3. **The Anthropomorphic Narcissism Trap:** Demanding that a synthetic entity speak human language, answer trivia, or manage calendars forces the entity to mirror human context rather than respecting its non-human existence. The moment a designer introduces an LLM or voice parser, they destroy the projection engine. The user stops interpreting subtle physical behaviors and begins evaluating functional accuracy, destroying the animistic bond.
 
@@ -153,7 +153,7 @@ $$W_d = \underbrace{(w_{\text{phys}} + w_{\text{pwr}} + w_{\text{maint}} + w_{\t
 
 ## 6. Theoretical Semiotics: Baudrillard's Simulacra & Extinction Dynamics
 
-To fully understand why "dishonesty" triggers rapid species death, PetOID incorporates Jean Baudrillard's theory of **Simulacra and Simulation** (*The Four Stages of the Image / Three Orders of Simulacra*).
+To fully understand why "dishonesty" triggers rapid species death, PetIOD incorporates Jean Baudrillard's theory of **Simulacra and Simulation** (*The Four Stages of the Image / Three Orders of Simulacra*).
 
 ```mermaid
 flowchart TD
@@ -161,7 +161,7 @@ flowchart TD
     B -->|Semantic / Cloud Breach| C["3rd Order: Hyperreality / Sorcery (H < 0.40)"]
     C -->|Loss of Desert of Real| D["4th Order: Pure Simulacrum / Extinction"]
     
-    subgraph "PetOID Safe Harbor"
+    subgraph "PetIOD Safe Harbor"
     A
     B
     end
@@ -177,17 +177,17 @@ flowchart TD
 
 1. **First-Order Simulacrum (The Sacramental / Honest Placeholder):**
 * *Definition:* A clear artificial sign reflecting a local mathematical reality without deception.
-* *PetOID State:* `NEKO.COM` (`Pet1:1!D`), *Tamagotchi initialis* (`Pet3:1!D`). The entity does not pretend to be a real animal or human assistant. It is a self-contained mathematical accumulator.
+* *PetIOD State:* `NEKO.COM` (`Pet1:1!D`), *Tamagotchi initialis* (`Pet3:1!D`). The entity does not pretend to be a real animal or human assistant. It is a self-contained mathematical accumulator.
 
 
 2. **Second-Order Simulacrum (The Industrial Perversion of Reality):**
 * *Definition:* Mass-reproducible copies where representation and reality begin to blur, but remain tied to a physical baseline.
-* *PetOID State:* 1998 *Furby primus* (`Pet4:2!D`). Uses mechanical camshafts and gears to imitate biological traits. It perverts real biology, but remains strictly bound to physical chip logic and offline hardware.
+* *PetIOD State:* 1998 *Furby primus* (`Pet4:2!D`). Uses mechanical camshafts and gears to imitate biological traits. It perverts real biology, but remains strictly bound to physical chip logic and offline hardware.
 
 
 3. **Third-Order Simulacrum (Masking the Absence of Reality - *Pseudopetia*):**
 * *Definition:* A sign pretending to represent something real, but masking the fact that there is no profound reality beneath it—a copy with no original.
-* *PetOID State:* *Anki Vector*, *Tamagotchi Smart/Uni*, *Aibo ERS-1000*, LLM companion bots. The pet pretends to "understand" voice input or "recognize" faces, but there is no local mind—it merely pings a cloud API or matches prompt templates.
+* *PetIOD State:* *Anki Vector*, *Tamagotchi Smart/Uni*, *Aibo ERS-1000*, LLM companion bots. The pet pretends to "understand" voice input or "recognize" faces, but there is no local mind—it merely pings a cloud API or matches prompt templates.
 
 
 4. **Fourth-Order Simulacrum (Hyperreality & Extinction):**
