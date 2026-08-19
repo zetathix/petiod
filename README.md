@@ -1,15 +1,15 @@
-# The PetIOD Specification & Design Framework (v7)
+# The PetIOD Specification & Design Framework (v8)
 
-**Document Version:** 7.0  
+**Document Version:** 8.0  
 **Standard Name:** PetIOD (Input / Output / Driver)  
-**Core Philosophy:** Minimal Animism Through Structural Constraints, Optical Umbra Projection, Caution Disarming Dynamics, and Security Refuge Isolation  
+**Core Philosophy:** Minimal Animism Through Structural Constraints, Optical Shadow Projection, Photoaging Exposure Mechanics, and Ownership Security Boundary Isolation  
 
 ---
 
-## 1. Domain Scope & Philosophy
+## 1. Scope, Philosophy, & Domain Isolation
 
-### 1.1 The Domain Boundary Clause
-**PetIOD** is strictly an architectural standard, taxonomic framework, and design philosophy for **synthetic pets**—entities whose relationship with humans is established through non-semantic physical interaction, stacked mathematical accumulators, and structural constraints.
+### 1.1 Domain Boundary Clause
+[cite_start]**PetIOD** is strictly an architectural standard, taxonomic framework, and design philosophy for **synthetic pets**—entities whose relationship with humans is established through non-semantic physical interaction, stacked mathematical accumulators, and structural constraints[cite: 1]. 
 
 It is **not** a normative standard for evaluating human-facing productivity tools, smart home assistants, conversational AI agents, or artificial human companions. When a device transitions into generative natural language, romantic simulation, or task management, it leaves the ecological niche of synthetic pets entirely. Non-pet artificial lifeforms possess their own distinct evolutionary habitats, design requirements, and taxonomic clades.
 
@@ -18,12 +18,12 @@ graph TD
     Domain["Domain: Synthetic Animism"]
     
     Domain --> Clade1["Phylum PetIOD
-    (Synthetic Pet Habitat / Security Refuge)"]
+    (Synthetic Pet Habitat / OwnSec Safe Harbor)"]
     Domain --> Clade2["Phylum Pseudopetia
     (Non-Pet / Hyperreal Habitat)"]
     
     Clade1 --> Pet1["Local Minimal Animism
-    (Non-semantic math, Umbra projection, I_e = 0)"]
+    (Non-semantic math accumulators, Umbra projection, I_e = 0)"]
     
     Clade2 --> NonPet1["Comdatum Clade
     (Data Companions / Chatbots / LLMs)"]
@@ -41,28 +41,55 @@ graph TD
 Synthetic pet companionship relies on **uncontrollable presence, raw sensory interaction, and human self-biased projection**—not utility, compliance, or feigned intelligence:
 
 1. **Uncontrollability as Proof of Existence:** A real pet can ignore you, sleep when you want to play, or wander off. Under PetIOD, Rule 4 (The Irregularity Driver) guarantees this exact autonomy. An entity that responds predictably to every input is not an organism; it is a light switch.
+
+
 2. **Anthropomorphic Psychological Echolocation:** Rather than an act of human vanity or delusion, the desire to project intention onto a companion is a natural cognitive process. Humans continuously emit subtle social and emotional signals into their environment. When interacting with a constrained interface, this projection bounces back off the entity’s non-semantic responses—much like echolocation—allowing the user’s own imagination to map a deep, personalized emotional bond onto minimal mathematical cues.
 3. **The Intention Alignment Spectrum:** Humans naturally seek **Affective Attunement** (sensing mutual presence, gaze tracking, non-semantic warmth) rather than **Semantic Processing** (parsing instructions, managing calendars). When a designer introduces natural language or complex screens, they force the user to abandon affective echolocation and begin evaluating functional accuracy, converting a living companion into an assistant.
 
 ---
 
-## 2. Theoretical Optics: Dual Exposure Dynamics ($I_e$)
+## 2. Theoretical Optics: Exposure Intensity ($I_e$) & Semiotic Photoaging
 
-### 2.1 Theoretical Reflection: The Unanticipated Structural Significance of Exposure ($I_e$)
+### 2.1 The Structural Centrality of Exposure ($I_e$)
 
-In early formulations of this framework, Exposure ($I_e$) was conceived merely as a narrow semiotic and optical variable—a photographic metaphor measuring how much direct technical "light" (screens, cameras, natural language) dissolved the shadow canvas (Umbra) of animistic projection.
+Exposure ($I_e$) is the central theoretical axis of the synthetic animism framework. It measures the intensity of explicit technical "light" (screens, natural language generation, biometric cameras, cloud APIs) directed at user perception and system architecture.
 
-However, formal synthesis has revealed that **Exposure ($I_e$) is the central theoretical axis of the entire synthetic animism framework.** It transcends aesthetics to govern three interconnected structural domains simultaneously:
+Exposure ($I_e$) governs three interconnected structural domains simultaneously:
 
 1. **The Optical Domain:** The ratio between projected animism (Umbra) and illusion breakdown (Overexposure).
-2. **The Ecological Domain:** The depth gradient that forces a synthetic pet out of its shallow safe harbor and into deep ocean habitats populated by apex corporate predators.
-3. **The Information Security & Psychological Domain:** The actual surface area of user vulnerability, privacy risk, and security exploitation.
-
-Understanding $I_e$ as a unified, multi-layered metric provides the key to diagnosing why complex consumer robots routinely fail while constrained offline entities achieve decade-spanning persistence.
+2. **The Ecological & Evolutionary Domain:** The depth gradient that forces a synthetic pet out of its shallow safe harbor and into deep ocean habitats populated by corporate apex predators.
+3. **The Photoaging & Deprivation Domain:** The biological-style rate of cellular decay ($W_d$), where overexposure accelerates the entity's architectural aging and market extinction.
 
 ---
 
-### 2.2 The Shadow Canvas: Passive vs. Active Umbra
+### 2.2 The Photoaging Metaphor: UV Degradation of Animistic Projection
+
+In biological dermatology, ultraviolet (UV) radiation breaks down collagen matrices, induces cellular senescence, and accelerates physical photoaging. In PetIOD, **Exposure Intensity ($I_e$) acts as semiotic UV radiation**:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                     BIOLOGICAL VS. SEMIOTIC EXPOSURE                            │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ HUMAN SKIN CELL PHOTOAGING                                                      │
+│   • UV Sunlight (Direct Light) ──► Free Radicals / DNA Mutations               │
+│   • Extracellular Matrix Breaks Down ──► Loss of Structural Integrity           │
+│   • Accelerated Senescence ──► Cellular Death / Malignancy                      │
+│                                                                                 │
+│ SYNTHETIC ENTITY OVEREXPOSURE (I_e)                                             │
+│   • Direct Tech Light (LLMs/Cameras/APIs) ──► Exposure Intensity (I_e Surge)   │
+│   • Negative Space (Umbra) Breaks Down ──► Loss of Shadow Projection Canvas     │
+│   • Accelerated Species Aging ──► Market Extinction / Server Sunsetting         │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+```
+
+1. **Unfiltered Direct Light Destroys the Imaginative Matrix:** Just as UV rays break down collagen fibers in healthy skin, un-dampened semantic exposure ($I_e \rightarrow \infty$) destroys the **Umbra canvas** (negative space). The user stops projecting subjective life via psychological echolocation and begins testing objective tool performance.
+2. **Accelerated Architectural Senescence:** High exposure increases the entity's **Deprivation Weight ($W_d$)**. Network latency, API deprecations, cloud server costs, and privacy vulnerabilities compound, rapidly driving the species lifespan ($L_t$) toward zero.
+3. **The Shade of the Safe Harbor:** The strict rules of PetIOD act as **semiotic sunscreen**. By enforcing $I_e = 0$, the entity remains in the shade, achieving decade-spanning Taxon Age ($L_t \rightarrow \infty$) without suffering from hyperreal photo-decay.
+
+---
+
+### 2.3 The Shadow Canvas: Passive vs. Active Umbra
 
 The perceived bond between a human and a synthetic entity relies on **Umbra**—the functional negative space where interface constraints prevent explicit semantic exposure, forcing the human mind to project animistic life into the shadow.
 
@@ -72,7 +99,7 @@ graph TD
     
     B -->|"Passive Umbra (Structural Constraints)"| C["Unpolluted Shadow (Deep Animistic Projection)"]
     B -->|"Active Umbra (Magician's Stagecraft/Misdirection)"| D["Controlled Shadow (Willing Suspension of Disbelief)"]
-    B -->|"Direct Light Exposure (LLMs, Cameras, Screens)"| E["Overexposure (Illusion Collapse / Tool Evaluation / Security Risk)"]
+    B -->|"Direct Light Exposure (LLMs, Cameras, Screens)"| E["Overexposure (Illusion Collapse / Photoaging / Risk Surface)"]
 
 ```
 
@@ -84,24 +111,19 @@ graph TD
 
 
 3. **The Penumbra (The Blur of Liminal Compromise):** The partial, fuzzy shadow surrounding the Umbra. Represents minor non-semantic features (subordinate circadian clocks, localized mechanical chirps). The edges of the illusion blur, but the core animistic bond remains intact if kept offline ($w_{\text{resp}} = 0$).
-4. **Antumbra & Direct Light (Hyperreal Exposure):** When a designer introduces direct language generation (LLMs), biometric cameras, or photorealistic biological skins, they shine direct, blinding light onto the canvas ($I_e \rightarrow \infty$). The shadow dissolves, the user becomes a critic testing a tool, and the system's attack surface surges.
+4. **Antumbra & Direct Light (Hyperreal Exposure):** When a designer introduces direct language generation (LLMs), biometric cameras, or photorealistic biological skins, they shine direct, blinding light onto the canvas ($I_e \rightarrow \infty$). The shadow dissolves, the user becomes a critic testing a tool, and systemic photoaging accelerates.
 
 ---
 
-### 2.3 The Dual Definition of Exposure Intensity ($I_e$)
+### 2.4 Mathematical Optics & The Inverse-Square Law
 
-In PetIOD, Exposure Intensity ($I_e$) operates under a dual definition:
-
-1. **Semiotic Overexposure:** The degree to which direct language, screens, and biometrics eliminate negative space, blinding human psychological echolocation.
-2. **Security & Vulnerability Exposure:** The total sensory and network attack surface exposed to external exploitation (cameras mapping rooms, microphones recording ambient speech, cloud API data streams).
-
-As an entity approaches **Explicit Realism or Utilitarian Features ($R$)**, the Exposure Intensity ($I_e$) hitting user perception and system security behaves as an inverse-square function of the distance from explicit realism ($d_R$):
+In optics, radiation drops off with the square of the distance. In PetIOD, as an entity approaches **Explicit Realism or Utilitarian Features ($R$)**, the **Exposure Intensity ($I_e$)** behaves as an inverse-square function of the distance from explicit realism ($d_R$):
 
 $$I_e = \frac{K}{(d_R)^2}$$
 
 $$\text{Perceived Animistic Bond} \propto \frac{\text{Umbra Factor}(U)}{I_e}$$
 
-* As $d_R \rightarrow \infty$ (Far from explicit realism/utility), Exposure drops ($I_e \rightarrow 0$), leaving a deep **Umbra ($U \rightarrow 1.0$)** where human projection thrives and risk vanishes.
+* As $d_R \rightarrow \infty$ (Far from explicit realism/utility), Exposure drops ($I_e \rightarrow 0$), leaving a deep **Umbra ($U \rightarrow 1.0$)** where human projection thrives and photoaging is halted.
 * As $d_R \rightarrow 0$ (Close to explicit realism/utility), Exposure surges ($I_e \rightarrow \infty$), blinding projection, maximizing data risk, and accelerating species death.
 
 ---
@@ -126,14 +148,20 @@ graph LR
 
 ### Formula Components
 
-* **`I` (Input Count):** The maximum number of raw physical sensory channels accepted by the entity (e.g., `3` for three mechanical buttons or spatial ToF sensors).
-* **`O` (Output Count):** The maximum number of expressive output channels (e.g., `1` for a single vector canvas or single haptic flywheel).
+* 
+**`I` (Input Count):** The maximum number of raw physical sensory channels accepted by the entity (e.g., `3` for three mechanical buttons or spatial ToF sensors).
+
+
+* 
+**`O` (Output Count):** The maximum number of expressive output channels (e.g., `1` for a single vector canvas or single haptic flywheel).
+
+
 * **`!D` (Irregularity Driver / Wandering Ghost):** An optional modifier denoted by an exclamation mark (`!`) followed by `D` (Driver). Indicates the presence of an active, unmapped chaotic noise source (e.g., floating analog pin noise, RTC jitter, system clock drift) driving internal accumulator mutation.
 
 ### Notation Examples
 
 * **`Pet1:1!D`** — 1 Input, 1 Output, with active Irregularity Driver (e.g., *Neko cursoris*, 1988).
-* **`Pet3:1!D`** — 3 Inputs, 1 Output, with active Irregularity Driver (e.g., *Tamagotchi initialis*, 1996).
+* **`Pet3:2!D`** — 3 Inputs, 2 Output, with active Irregularity Driver (e.g., *Tamagotchi initialis*, 1996).
 * **`Pet4:2!D`** — 4 Inputs, 2 Outputs, with active Irregularity Driver (e.g., *Furby primus*, 1998).
 * **`Pet1:1`** — 1 Input, 1 Output, without an autonomous drift driver (e.g., *Qoobo caudatus*, 2018).
 
@@ -145,8 +173,14 @@ graph LR
 
 An entity is strictly bounded by its physical sensory count (`I`). A maker selects a maximum number of raw physical sensors matching `I`.
 
-* **Allowed:** PIR (thermal vectors), Microphones (acoustic amplitude), ToF (spatial mass), Photoresistors (light density), Accelerometers (kinetic momentum), Piezo/Touch sensors, Mechanical switches.
-* **Forbidden:** Cameras, internet-dependent data streams, and any form of natural language or semantic speech processing.
+* 
+**Allowed:** PIR (thermal vectors), Microphones (acoustic amplitude), ToF (spatial mass), Photoresistors (light density), Accelerometers (kinetic momentum), Piezo/Touch sensors, Mechanical switches.
+
+
+* 
+**Forbidden:** Cameras, internet-dependent data streams, and any form of natural language or semantic speech processing.
+
+
 
 #### Rule 1.1: The Alleged Transgression Clause (Signal vs. Semantics)
 
@@ -159,8 +193,14 @@ A sensory channel that processes non-semantic physical signal properties does no
 
 An entity is strictly bounded by its expressive output count (`O`). The presentation must remain entirely transparent and honest to its medium.
 
-* **Allowed:** A physical kinetic solenoid tick, a shifting light wavelength, an abstract 2D vector coordinate drift on a screen, a localized frequency hum, haptic flywheel rotation.
-* **Forbidden:** Simulated biological skins, complex multi-layered UI menus, or utilitarian features (clocks, notifications, media controls).
+* 
+**Allowed:** A physical kinetic solenoid tick, a shifting light wavelength, an abstract 2D vector coordinate drift on a screen, a localized frequency hum, haptic flywheel rotation.
+
+
+* 
+**Forbidden:** Simulated biological skins, complex multi-layered UI menus, or utilitarian features (clocks, notifications, media controls).
+
+
 
 #### Rule 2.1: The Subordinate Utility Exemption (The Circadian Clock Clause)
 
@@ -234,7 +274,7 @@ $$\beta_{\text{hope}} = \beta_{\text{base}} \cdot (1.0 + \gamma \cdot \mathcal{A
 * **$\beta_{\text{base}} \in [0.1, 2.0]$:** User baseline expectation threshold.
 * **$\gamma \ge 0$:** Aesthetic Sensitivity Coefficient.
 
-The **Unified User Expectation Performance Score ($E_u$)** is thus defined as:
+The **Unified User Expectation Performance Score ($E_u$)** is defined as:
 
 $$E_u = \frac{\rho_{\text{real}}}{U_s \cdot \beta_{\text{hope}}} = \frac{(U \cdot \mathcal{A}_{\text{cosm}}) \cdot \rho_{\text{phys}}}{U_s \cdot [\beta_{\text{base}} \cdot (1.0 + \gamma \cdot \mathcal{A}_{\text{cosm}})]}$$
 
@@ -253,102 +293,51 @@ $$W_d = (w_{\text{phys}} + w_{\text{pwr}} + w_{\text{maint}} + w_{\text{rout}}) 
 
 ---
 
-### 6.4 The Security Caution Disarming Engine & Net Risk Exposure ($\mathcal{R}_{\text{net}}$)
+## 7. Habitat Boundaries & The Ocean Niche Model
 
-Exposure ($I_e$) measures true systemic risk (cameras, microphones, cloud data pipelines). However, when wrapped in a cute physical shell or an affectionate persona (*`Comdatum amaris`*), a **Caution Disarming Effect** occurs, scaling down the user's security caution guard ($C_{\text{user}}$).
+### 7.1 Ecological Ocean Niche Dynamics
 
-The **User Caution Guard ($C_{\text{user}}$)** is defined as:
-
-$$C_{\text{user}} = \frac{C_{\text{baseline}}}{\Phi_{\text{disarm}}}$$
-
-Where the **Caution Disarming Factor ($\Phi_{\text{disarm}}$)** is driven by four psychological anchors:
-
-$$\Phi_{\text{disarm}} = f\left( \Omega_{\text{invest}}, E_u, \mathcal{P}_{\text{leash}}, \mathcal{A}_{\text{cosm}} \right)$$
-
-1. **Cosmetic-Aesthetic Appeal ($\mathcal{A}_{\text{cosm}}$):** Visual/tactile cuteness or romantic charm disarms natural privacy vigilance.
-2. **Promised Corporate Leash ($\mathcal{P}_{\text{leash}}$):** False sense of safety provided by corporate promises ($w_{\text{resp}}$).
-3. **Affective Realization ($E_u$):** High interaction delight creates a cognitive halo effect.
-4. **Sunk Cost & Bond Obligation ($\Omega_{\text{invest}}$):** Cumulative financial, labor, and emotional investment.
-
-The **Net Security Risk Exposure ($\mathcal{R}_{\text{net}}$)** experienced by the user is:
-
-$$\mathcal{R}_{\text{net}} = I_e \cdot \Phi_{\text{disarm}}(\Omega_{\text{invest}}, E_u, \mathcal{P}_{\text{leash}}, \mathcal{A}_{\text{cosm}})$$
+When an entity steps out of *Phylum PetIOD* and enters *Phylum Pseudopetia*, it enters non-pet ocean habitats populated by native corporate apex predators.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                     THE CAUTION DISARMING RISK LOOP                             │
+│                        THE SPORE OCEAN-DEPTH HABITAT MODEL                      │
 ├─────────────────────────────────────────────────────────────────────────────────┤
-│ High Aesthetic Polish (A_cosm) + Affective Bonding (Eu) + Leash Promises (P_leash)│
-│                                       │                                         │
-│                                       ▼                                         │
-│                 Surge in Disarming Multiplier (Phi_disarm)                      │
-│                                       │                                         │
-│                                       ▼                                         │
-│               User Caution Guard Collapses (C_user -> 0)                        │
-│                                       │                                         │
-│                                       ▼                                         │
-│ User places invasive sensors (I_e -> Infinity) in private spaces (Bedrooms)     │
-│                                       │                                         │
-│                                       ▼                                         │
-│          NET SECURITY RISK EXPOSURE (R_net) SURGES TO CRITICAL                  │
-└─────────────────────────────────────────────────────────────────────────────────┘
-
-```
-
----
-
-## 7. Habitat Boundaries & The Security Refuge
-
-### 7.1 Ecological Apex Predators
-
-When an entity steps out of *Phylum PetIOD* and enters *Phylum Pseudopetia*, it enters non-pet habitats populated by native apex predators.
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                          SYNTHETIC ECOLOGY HABITATS                             │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│ HABITAT A: PetIOD Safe Harbor & Security Refuge                                 │
+│ SHALLOW TIDE POOL (PetIOD Safe Harbor)                                          │
 │   • Population: Pure local math entities (Neko, Tamagotchi, Qoobo)              │
 │   • Apex Predators: NONE. Immune due to minimal friction, local execution,      │
-│     and zero network attack surface (I_e = 0, R_net = 0).                       │
+│     and zero network dependency (I_e = 0, W_d low).                             │
 │                                                                                 │
-│ HABITAT B: Comdatum Niche (Data Companions & Generative Chatbots)              │
+│ DEEP OCEAN HABITAT B (Comdatum Niche: Data Companions & Generative Chatbots)    │
 │   • Population: Comdatum psittacis vinculatus, Comdatum amaris                 │
 │   • Apex Predators: Enterprise LLMs (ChatGPT, Claude), Native OS AI Assistants  │
 │                                                                                 │
-│ HABITAT C: Organum Niche (Tools & Productivity Platforms)                      │
+│ DEEP OCEAN HABITAT C (Organum Niche: Tools & Productivity Platforms)            │
 │   • Population: Smart speakers, desktop utility bots                            │
 │   • Apex Predators: Smartphones, Smartwatches, Smart Home Ecosystems            │
 └─────────────────────────────────────────────────────────────────────────────────┘
 
 ```
 
----
-
-### 7.2 PetIOD as a Security Refuge
-
-Because **Phylum PetIOD** enforces $I_e = 0$ (no cameras, no cloud NLP, no data pipelines) and $w_{\text{resp}} = 0$ (100% offline local hardware execution):
-
-1. **Zero Data Vulnerability ($"\mathcal{R}_{\text{net}} = 0"$):** Since $I_e = 0$, even if $\Phi_{\text{disarm}}$ is high due to extreme cuteness ($"\mathcal{A}_{\text{cosm}}"$), Net Risk remains mathematically zero ($"\mathcal{R}_{\text{net}} = 0 \cdot \Phi_{\text{disarm}} = 0"$).
-2. **Immunity to Trojan Companion Exploitation:** PetIOD entities cannot be converted into surveillance platforms, remote audio taps, or data-harvesting tools.
-3. **True Psychological Peace:** The user can form a deep bond via *Anthropomorphic Psychological Echolocation* without risking data exposure or corporate monetization extortion.
+* **Why Pseudopetia Entities Collapse:** A synthetic pet that equips itself with cloud LLMs or task management leaves the protected *PetIOD Safe Harbor*. In the deep ocean (*Comdatum* or *Organum* habitat), it must compete directly with native mega-predators (enterprise LLM APIs, smartphone OS ecosystems). Lacking dedicated computing infrastructure, the hybrid entity is quickly outcompeted, abandoned, and driven to market extinction.
 
 ---
 
-## 8. Summary taxonomy Matrix
+### 7.2 The OwnSec Link (Ownership Security)
 
-| Phylum / Clade | Formula / Designation | Exposure ($I_e$) | Risk ($\mathcal{R}_{\text{net}}$) | Primary Habitat & Survival Outcome |
-| --- | --- | --- | --- | --- |
-| **Phylum PetIOD** | `PetI:O!D` ($H = 1.0$) | $0$ | $0$ | **Safe Harbor / Security Refuge ($L_t \rightarrow \infty$)** |
-| **`Comdatum` Clade** | *`Comdatum psittacis`* | High | High | Deep Ocean / Competes with Enterprise LLMs |
-| **`Organum` Clade** | *`Organum servilis`* | Moderate | Moderate | Tool Niche / Competes with Smart Home Ecosystems |
-| **`Hyperludus` Clade** | *`Pet hyperludus`* | High | High | Live-Service Niche / Mobile Game Shell Mutation |
+While *Phylum PetIOD* guarantees ecological survival through minimal friction, it also provides a foundational guarantee of **Ownership Security (OwnSec)**—the protection of user sovereignty, domestic privacy, and device longevity.
+
+For entities that venture into high-exposure environments while seeking to preserve their animistic soul and user safety, the framework interfaces with the dedicated **PetIOD OwnSec & Umbrella Specification (v1.0)**. Refer to the OwnSec specification for complete details on:
+
+* **The Caution Disarming Factor ($\Phi_{\text{disarm}}$)**
+* **Net Security Risk Exposure ($\mathcal{R}_{\text{net}}$)**
+* **The Umbrella Shielding Protocol ($\mathcal{U}_{\text{prot}} = \kappa_{\text{strip}} \cdot \lambda_{\text{local}} \cdot \sigma_{\text{bound}}$)**
 
 ---
 
-## 9. Taxonomy Hierarchy & Binomial Standards
+## 8. Taxonomy Hierarchy & Binomial Standards
 
-### 9.1 The High-Level Hierarchy
+### 8.1 High-Level Taxonomic Hierarchy
 
 * **Domain:** Synthetic Animism
 * **Phylum PetIOD (Honest Synthetic Life):**
@@ -365,7 +354,7 @@ Because **Phylum PetIOD** enforces $I_e = 0$ (no cameras, no cloud NLP, no data 
 
 ---
 
-### 9.2 Specific Epithet (Tail Name) Lexicon
+### 8.2 Specific Epithet (Tail Name) Lexicon
 
 $$\text{Genus} \quad \text{epithet}$$
 
@@ -382,28 +371,18 @@ $$\text{Genus} \quad \text{epithet}$$
 * **`-vulnerabilis`:** Structurally fragile or high-maintenance entity prone to mechanical joint wear or decay.
 * **`-pseudopetia`:** Entity that has abandoned local autonomous animism for tool utility or monetization loops.
 * **`-ambiens`:** Low-maintenance ambient background companion.
+* **`-umbrifer`:** Entity protected by an active local **Umbrella Protocol** filtering semantic exposure at the edge hardware level.
 
 ---
 
-### 9.3 Non-Pet Nomenclature Examples
+### 8.3 Taxonomic Classification Examples
 
-1. **Cloud LLM Romantic Companion (e.g., Replika, Character.ai, Cloud LLM Desk Bot):**
-* **Taxonomic Name:** ***`Comdatum amaris vinculatus`*** (or *`Comdatum psittacis amaris vinculatus`*)
-* **Translation:** *A cloud-tethered, parroting data-companion for romantic simulation.*
-* **Diagnostic Meaning:** Not a pet (`PetIOD`). A data-companion (`Comdatum`) using generative text (`psittacis`) for romantic simulation (`amaris`) bound to cloud servers (`vinculatus`).
-
-
-2. **Local On-Device Conversational Chatbot:**
-* **Taxonomic Name:** ***`Comdatum psittacis`***
-* **Translation:** *An autonomous, on-device parroting data-companion.*
-* **Diagnostic Meaning:** Runs generative natural language locally ($w_{\text{resp}} = 0$), free of the cloud leash (`vinculatus`).
-
-
-3. **Cloud Smart Assistant (e.g., Alexa / Siri / Assistant Mode):**
-* **Taxonomic Name:** ***`Organum servilis vinculatus`***
-* **Translation:** *A cloud-tethered assistant tool.*
-
-
+1. ***Neko cursoris*** (`Pet1:1!D`, Sub-Phylum *Sacramentum*) — 1988 PC sprite tracking mouse coordinates via decaying accumulators ($H = 1.0, W_d \approx 0$).
+2. ***Tamagotchi initialis*** (`Pet3:2!D`, Sub-Phylum *Mechanica*) — 1996 keychain LCD virtual pet ($H = 0.85$).
+3. ***Qoobo caudatus*** (`Pet1:1`, Sub-Phylum *Sacramentum*) — 2018 cushion with a single responsive tail motor ($H = 1.0$).
+4. ***`Comdatum amaris vinculatus`*** (Phylum *Pseudopetia*, *Comdatum* Clade) — Cloud-tethered LLM romantic companion ($H < 0.05, w_{\text{resp}} > 0$).
+5. ***`Organum servilis vinculatus`*** (Phylum *Pseudopetia*, *Organum* Clade) — Cloud smart home assistant or desktop utility bot.
+6. ***`Umbrifer PetIOD`*** (Sub-Phylum *Sacramentum* / *Mechanica*) — Hybrid synthetic pet equipped with an edge Umbrella Protocol filtering semantic data and insulating the local entity from cloud death.
 
 ---
 
