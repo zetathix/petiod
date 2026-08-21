@@ -267,43 +267,103 @@ When an entity steps out of **Clade 1 (*PetIOD*)**, it enters ocean habitats whe
 
 ---
 
-## 8. Linnaean Taxonomic Hierarchy & Binomial Standards
+#### 8. Taxonomy Hierarchy & Binomial Standards
 
-Synthetic entities are classified under formal biological-style Linnaean taxonomy:
+##### 8.1 High-Level Taxonomic Hierarchy
 
-```
-Domain: Acytota (Non-cellular entities)
- └── Regnum (Kingdom): Algorithma (State transition / Accumulator life)
-      └── Subregnum: Anima Synthetica (Animistic projection engines)
-           │
-           ├── Phylum I: Kinetica (Physical / Motors / Servos / Relays)
-           │    ├── Clade 1: PetIOD (Animistic Pets | H ≥ 0.85)
-           │    ├── Clade 2: Comdatum (Conversational / Social Companions)
-           │    └── Clade 3: Organum (Utilitarian Tools / Assistants)
-           │
-           └── Phylum II: Electrica (Digital / Raster / Pixel Displays)
-                ├── Clade 1: PetIOD (Desktop Sprites / LCD Keychains)
-                ├── Clade 2: Comdatum (LLM Avatars / Chatbots)
-                └── Clade 3: Organum (Smartwatch Apps / Widgets)
-
-```
-
-### Binomial Nomenclature Examples
-
-1. ***Neko cursoris*** (`Pet1:1!D`, Phylum *Electrica*, Clade *PetIOD*) — 1988 PC sprite tracking mouse coordinates ($H = 1.0, W_d \approx 0$).
+* **Domain:** *Acytota* (Non-cellular entities)
 
 
-2. ***Tamagotchi initialis*** (`Pet3:2!D`, Phylum *Electrica*, Clade *PetIOD*) — 1996 keychain LCD virtual pet ($H = 0.85$).
+* **Regnum (Kingdom):** *Algorithma* (Rule-based / Accumulator state-transition life)
 
 
-3. ***Qoobo caudatus*** (`Pet1:1`, Phylum *Kinetica*, Clade *PetIOD*) — 2018 cushion with a single responsive tail motor ($H = 1.0$).
+* **Subregnum:** *Anima Synthetica* (Entities driven by animistic projection engines)
+* **Phyla (Embodiment Mechanics):**
+* **Phylum I: *Arealisa*:** Non-physical, screen-bound, raster, pixel, or light-projection embodiment.
 
 
-4. ***`Comdatum amaris vinculatus`*** (Phylum *Electrica*, Clade *Comdatum*) — Cloud-tethered LLM romantic companion ($H < 0.05, w_{\text{resp}} > 0$).
+* **Phylum II: *Kinetica*:** Physical chassis driven by dynamic mechanical motion, motors, servos, or relays.
 
 
-5. ***`Organum servilis vinculatus`*** (Phylum *Kinetica*, Clade *Organum*) — Cloud smart home robot assistant.
+* **Phylum III: *Ornamenta*:** Physical, static, wearable, or ambient form relying on passive presence or quiet haptics without kinetic locomotion.
 
+
+* **Clades (Primary Relationship / Interaction Niche):**
+* **Clade 1: *PetIOD* (The Animistic Pet Clade):** Local non-semantic state accumulators, autonomous drift (`!D`), and offline safe harbor isolation ($H \ge 0.85$).
+
+
+* **Clade 2: *Comdatum* (The Companion Clade):** Conversational AI, generative LLMs, social avatars, and relational simulation.
+
+
+* **Clade 3: *Organum* (The Utilitarian / Tool Clade):** Task performance, home automation, productivity, and explicit utility.
+
+
+
+
+
+---
+
+##### 8.2 Specific Epithet (Tail Name) Lexicon
+
+$$\text{Genus} \quad \text{epithet}$$
+
+* **`-initialis` / `-primus`:** Founding baseline species of an evolutionary lineage.
+
+
+* **`-sacramentalis`:** Pure First-Order entity ($H = 1.0$, zero screens, zero cloud dependence).
+
+
+* **`-cursoris`:** Screen sprite bound to coordinate tracking.
+
+
+* **`-caudatus`:** Physical responsive tail mechanism.
+
+
+* **`-electro-mechanica`:** Motor, relay, or camshaft physical automaton.
+
+
+* **`-pseudo-sapiens`:** Parroting entity using Large Language Models (LLMs) or generative text synthesis to feign human reasoning.
+
+
+* **`-vinculatus`:** Tethered or leashed entity requiring remote cloud infrastructure or active Wi-Fi data pipelines ($w_{\text{resp}} > 0$).
+
+
+* **`-amaris` / `-amatoria`:** Romantic or intimate companion simulation.
+
+
+* **`-servilis`:** Utilitarian assistant or task-oriented tool.
+
+
+* **`-vulnerabilis`:** Structurally fragile or high-maintenance entity prone to mechanical joint wear or cloud deprecation.
+
+
+* **`-ambiens`:** Low-maintenance, quiet, or static background companion.
+
+
+* **`-umbrifer`:** Entity protected by an active local **Umbrella Protocol** filtering semantic exposure at the edge hardware level.
+
+
+
+---
+
+##### 8.3 Taxonomic Classification Examples
+
+1. ***Neko cursoris*** (`Pet1:1!D`, *Algorithma* / *Arealisa* / *PetIOD*) — 1988 PC sprite tracking mouse coordinates via decaying accumulators ($H = 1.0, W_d \approx 0$).
+
+
+2. ***Tamagotchi initialis*** (`Pet3:2!D`, *Algorithma* / *Arealisa* / *PetIOD*) — 1996 keychain LCD virtual pet with display and piezo beeper ($H = 0.85$).
+
+
+3. ***Qoobo caudatus*** (`Pet1:1`, *Algorithma* / *Kinetica* / *PetIOD*) — 2018 physical cushion with a single responsive tail motor ($H = 1.0$).
+
+
+4. ***`Comdatum amaris vinculatus`*** (*Algorithma* / *Arealisa* / *Comdatum*) — Cloud-tethered LLM romantic companion ($H < 0.05, w_{\text{resp}} > 0$).
+
+
+5. ***`Organum servilis vinculatus`*** (*Algorithma* / *Kinetica* / *Organum*) — Cloud smart home robot assistant.
+
+
+6. ***`Umbrifer PetIOD`*** (*Algorithma* / *Kinetica* or *Arealisa* / *PetIOD*) — Hybrid synthetic pet equipped with an edge Umbrella Protocol filtering semantic data and insulating the local entity from cloud death.
 
 
 ---
