@@ -1,17 +1,20 @@
-# The PetIOD Specification & Design Framework (v9)
+# The PetIOD Specification & Design Framework (v10)
 
-**Document Version:** 9.0  
-**Standard Name:** PetIOD (Input / Output / Driver)  
-**Core Philosophy:** Minimal Animism Through Structural Constraints, Hylomorphic Triads, Optical Shadow Projection, Photoaging Exposure Mechanics, and Ownership Security  
+**Document Version:** 10.0
+
+**Standard Name:** PetIOD (Input / Output / Driver)
+
+**Core Philosophy:** Minimal Animism Through Structural Constraints, Hylomorphic Triads, Optical Shadow Projection, Photoaging Exposure Mechanics, and Ownership Security Boundary Isolation
 
 ---
 
 ## 1. Scope, Philosophy, & Domain Isolation
 
 ### 1.1 Domain Boundary Clause
-**PetIOD** is strictly an architectural standard, taxonomic framework, and design philosophy for **synthetic pets**—entities whose relationship with humans is established through non-semantic physical interaction, stacked mathematical accumulators, and structural constraints[cite: 1].
 
-It is **not** a normative standard for evaluating human-facing productivity tools (*Organum*), smart home assistants, conversational AI agents (*Comdatum*), or artificial human companions[cite: 1, 4]. When a device transitions into generative natural language, romantic simulation, or task management, it leaves the ecological niche of synthetic pets entirely[cite: 1].
+**PetIOD** is strictly an architectural standard, taxonomic framework, and design philosophy for **synthetic pets**—entities whose relationship with humans is established through non-semantic physical interaction, stacked mathematical accumulators, and structural constraints.
+
+It is **not** a normative standard for evaluating human-facing productivity tools (*Organum*), smart home assistants, conversational AI agents (*Comdatum*), or artificial human companions. When a device transitions into generative natural language, romantic simulation, or task management, it leaves the ecological niche of synthetic pets entirely. Non-pet artificial lifeforms possess their own distinct evolutionary habitats, design requirements, and taxonomic clades.
 
 ```mermaid
 graph TD
@@ -39,7 +42,7 @@ graph TD
 
 PetIOD draws directly upon Aristotelian Hylomorphism (*De Anima*), structuring synthetic life into three distinct hierarchical layers:
 
-1. **The Vegetative Soul (*Anima Vegetativa*):** The foundational layer of metabolism, decay, and state drift. In PetIOD, this is realized through Rule 3 (Stacked Mathematical Accumulators) and Rule 4 (The Irregularity Driver `!D`). It handles energy decay, mood accumulators, and circadian drift without requiring external sensory input.
+1. **The Vegetative Soul (*Anima Vegetativa*):** The foundational layer of metabolism, decay, and state drift. In PetIOD, this is realized through Rule 3 (Stacked Mathematical Accumulators) and Rule 4 (The Irregularity Driver `!D`). It handles energy decay, mood accumulators, and circadian drift locally without requiring external sensory input.
 
 
 2. **The Sensitive Soul (*Anima Sensitiva*):** The animal layer of bodily perception and physical reaction. In PetIOD, this corresponds to Rule 1 (Raw Input Sensors) and Rule 2 (Expressive Outputs). The entity perceives physical dynamics (sound amplitude, pitch thresholds, spatial mass) and reacts physically (solenoid tick, tail wiggle). **Authentic biological and synthetic pets stop at this layer.**
@@ -56,6 +59,8 @@ PetIOD draws directly upon Aristotelian Hylomorphism (*De Anima*), structuring s
 In historical AI, Joseph Weizenbaum’s 1966 ELIZA program demonstrated the **ELIZA Effect**—the human cognitive tendency to project genuine empathy, understanding, and interiority onto a simple computer script. While *Verbal ELIZA* relied on natural language pattern matching (which eventually overexposed systems to hyperreality), PetIOD shifts this phenomenon to a **Kinetic/Physical ELIZA Effect**:
 
 * **Anthropomorphic Psychological Echolocation:** Humans continuously emit subtle emotional and social expectations. When interacting with a constrained interface, these projections bounce off non-semantic physical responses (a head tilt toward sound, an irregular hesitation, a tail wag), allowing the human mind to construct an animistic bond over negative space.
+
+
 * **The "Pseudopetia Condition" (Hazard):** When an entity promises utility ($U_s > 0$) or cloud intelligence without fulfilling it, it breaks the ELIZA mirror. The user stops projecting life and begins criticizing performance.
 
 
@@ -119,13 +124,16 @@ As an entity approaches **Explicit Realism or Utilitarian Features ($R$)**, the 
 
 $$I_e = \frac{K}{(d_R)^2}$$
 
-$$\text{Perceived Animistic Bond} \propto \frac{\text{Umbra Factor }(U)}{I_e}$$
+$$\text{Perceived Animistic Bond} \propto \frac{\text{Umbra Factor } (U)}{I_e}$$
+
+* **Distance Parameter ($d_R$):** The conceptual distance separating the entity's current representation from direct human/biological realism or utility tools.
+* **Proportionality Constant ($K$):** A scaling constant representing the total system capacity for broadcasting explicit technical metadata (e.g., screen resolution, word processing rate, API endpoint density). *For step-by-step calculations and derivation of $K$, refer to `math.md`.*
 
 ---
 
 ## 3. Nomenclature & Formula Notation
 
-Entities are classified by their sensory ratio and architectural drivers:
+Entities are classified by their sensory ratio and architectural drivers using the formula:
 
 $$\text{PetI:O!D}$$
 
@@ -198,6 +206,8 @@ An entity may inject an undercurrent of unprovoked randomness or unpredictable d
 
 ## 5. The Honesty Spectrum Index ($H$)
 
+System honesty is evaluated on a sliding scale defined by the ratio of autonomous animistic behaviors to utilitarian or gamified features:
+
 $$H = \frac{\text{Animistic Behaviors}}{\text{Animistic Behaviors} + \text{Utilitarian/Gamified Hooks}}$$
 
 | Honesty Index ($H$) | Classification | Description & Real World Examples |
@@ -226,25 +236,34 @@ $$H = \frac{\text{Animistic Behaviors}}{\text{Animistic Behaviors} + \text{Utili
 
 ---
 
-## 6. Mathematical Framework & User Dynamics
+## 6. Conceptual Mathematical Framework & User Dynamics Summary
 
-### 6.1 The Dual Realization Ratio Bracket ($\rho_{\text{real}}$)
+*(Note: For formal proofs, worked arithmetic examples, and variable bound derivations, consult `math.md`.)*
 
-$$\rho_{\text{real}} = \rho_{\text{psych}} \cdot \rho_{\text{phys}} = (U \cdot \mathcal{A}_{\text{cosm}}) \cdot \left[ \alpha \cdot \left( \frac{\text{Actual Hardware Performance}}{T_{\text{era}}} \right) \right]$$
+### 6.1 Dual Realization Ratio Bracket ($\rho_{\text{real}}$)
 
-### 6.2 Pre-Filtered Hope Baseline ($\beta_{\text{hope}}$) & Expectation Score ($E_u$)
+To prevent raw technical capabilities from masking a failed animistic stagecraft, systemic realization is split into two non-interchangeable brackets:
 
-Cosmetic aesthetics ($\mathcal{A}_{\text{cosm}}$) act as an initial expectation filter, inflating user hope before interaction starts:
+* **Psychological Realization ($\rho_{\text{psych}} \in [0.0, 1.0]$):** Evaluates the depth of negative space ($U$) and cosmetic-aesthetic appeal ($\mathcal{A}_{\text{cosm}}$).
 
-$$\beta_{\text{hope}} = \beta_{\text{base}} \cdot (1.0 + \gamma \cdot \mathcal{A}_{\text{cosm}})$$
 
-$$E_u = \frac{\rho_{\text{real}}}{U_s \cdot \beta_{\text{hope}}} = \frac{(U \cdot \mathcal{A}_{\text{cosm}}) \cdot \rho_{\text{phys}}}{U_s \cdot [\beta_{\text{base}} \cdot (1.0 + \gamma \cdot \mathcal{A}_{\text{cosm}})]}$$
+* **Physical Realization ($\rho_{\text{phys}} \in [-1.0, 1.0]$):** Evaluates hardware performance relative to the technology ceiling of the given era ($T_{\text{era}}$) and performance coefficient ($\alpha$).
+
+
+
+### 6.2 Pre-Filtered Hope ($\beta_{\text{hope}}$) & Unified Expectation Score ($E_u$)
+
+Cosmetic polish ($\mathcal{A}_{\text{cosm}}$) acts as an expectation filter, inflating the user's hope baseline ($\beta_{\text{hope}}$) prior to interaction. When promised utility features ($U_s$) outpace realization ($\rho_{\text{real}}$), the expectation performance score drops ($E_u \ll 1.0$), triggering the "Disappointment Trap" and accelerating entity abandonment.
+
+### 6.3 Deprivation Weight ($W_d$) & Lifespan ($L_t$)
+
+Species survival age ($L_t$) is inversely linked to total operational friction ($W_d$). $W_d$ aggregates physical upkeep, power needs, daily routine burdens, and network/cloud response latency ($w_{\text{resp}}$). Entities with high cloud dependence ($w_{\text{resp}} > 0$) combined with high exposure ($I_e \to \infty$) incur infinite friction ($W_d \to \infty$), resulting in rapid market extinction ($L_t \to 0$).
 
 ---
 
 ## 7. Ocean Niche Dynamics & Clade Speciation
 
-When an entity steps out of **Clade 1 (*PetIOD*)**, it enters ocean habitats where native apex predators rule.
+When an entity steps out of **Clade 1 (*PetIOD*)**, it enters ocean habitats where native corporate apex predators rule.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
@@ -267,9 +286,9 @@ When an entity steps out of **Clade 1 (*PetIOD*)**, it enters ocean habitats whe
 
 ---
 
-#### 8. Taxonomy Hierarchy & Binomial Standards
+## 8. Taxonomy Hierarchy & Binomial Standards
 
-##### 8.1 High-Level Taxonomic Hierarchy
+### 8.1 High-Level Taxonomic Hierarchy
 
 * **Domain:** *Acytota* (Non-cellular entities)
 
@@ -285,7 +304,7 @@ When an entity steps out of **Clade 1 (*PetIOD*)**, it enters ocean habitats whe
 * **Phylum II: *Kinetica*:** Physical chassis driven by dynamic mechanical motion, motors, servos, or relays.
 
 
-* **Phylum III: *Ornamenta*:** Physical, static, wearable, or ambient form relying on passive presence or quiet haptics without kinetic locomotion.
+* **Phylum III: *Ornamenta*:** Physical, static, wearable, or ambient form relying on passive presence or quiet haptics without locomotion.
 
 
 * **Clades (Primary Relationship / Interaction Niche):**
@@ -303,7 +322,7 @@ When an entity steps out of **Clade 1 (*PetIOD*)**, it enters ocean habitats whe
 
 ---
 
-##### 8.2 Specific Epithet (Tail Name) Lexicon
+### 8.2 Specific Epithet (Tail Name) Lexicon
 
 $$\text{Genus} \quad \text{epithet}$$
 
@@ -346,7 +365,7 @@ $$\text{Genus} \quad \text{epithet}$$
 
 ---
 
-##### 8.3 Taxonomic Classification Examples
+### 8.3 Taxonomic Classification Examples
 
 1. ***Neko cursoris*** (`Pet1:1!D`, *Algorithma* / *Arealisa* / *PetIOD*) — 1988 PC sprite tracking mouse coordinates via decaying accumulators ($H = 1.0, W_d \approx 0$).
 
@@ -364,6 +383,7 @@ $$\text{Genus} \quad \text{epithet}$$
 
 
 6. ***`Umbrifer PetIOD`*** (*Algorithma* / *Kinetica* or *Arealisa* / *PetIOD*) — Hybrid synthetic pet equipped with an edge Umbrella Protocol filtering semantic data and insulating the local entity from cloud death.
+
 
 
 ---
