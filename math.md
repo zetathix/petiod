@@ -221,15 +221,15 @@ $$\kappa_{\text{strip}} = 1.0 - \left( \frac{\text{Semantic Bytes Egressing Edge
 
 * $\kappa_{\text{strip}} = 1.0$ when all human audio/video is stripped locally into abstract non-semantic physical vectors (pitch, velocity, ToF mass)[cite: 1].
 
-#### 2. Quality of Localness ($\lambda_{\text{local}} \in [0.0, 1.0]$)
-$$\lambda_{\text{local}} = \min\left(1.0, \; \frac{P_{\text{local\_edge}}}{T_{\text{era}}}\right)$$
+#### 2. Quality of Localness ($\lambda_{\mathrm{local}} \in [0.0, 1.0]$)
+$$\lambda_{\mathrm{local}} = \min\left(1.0, \; \frac{P_{\mathrm{local\_edge}}}{T_{\mathrm{era}}}\right)$$
 
-* $\lambda_{\text{local}} = 1.0$ when on-device embedded MCUs/NPUs ($P_{\text{local\_edge}}$) can run all state accumulators and emergency fallbacks without external cloud pings[cite: 1].
+* $\lambda_{\mathrm{local}} = 1.0$ when on-device embedded MCUs/NPUs ($P_{\mathrm{local\_edge}}$) can run all state accumulators and emergency fallbacks without external cloud pings[cite: 1].
 
-#### 3. Boundary Inviolability ($\sigma_{\text{bound}} \in [0.0, 1.0]$)
-$$\sigma_{\text{bound}} = 1.0 - \left( S_{\text{telemetry}} + S_{\text{remote\_override}} \right)$$
+#### 3. Boundary Inviolability ($\sigma_{\mathrm{bound}} \in [0.0, 1.0]$)
+$$\sigma_{\mathrm{bound}} = 1.0 - \left( S_{\mathrm{telemetry}} + S_{\mathrm{remote\_override}} \right)$$
 
-Where $S_{\text{telemetry}} \in [0.0, 0.5]$ measures outbound telemetry attack surface, and $S_{\text{remote\_override}} \in [0.0, 0.5]$ measures vulnerability to unverified cloud firmware overrides[cite: 1].
+Where $S_{\mathrm{telemetry}} \in [0.0, 0.5]$ measures outbound telemetry attack surface, and $S_{\mathrm{remote\_override}} \in [0.0, 0.5]$ measures vulnerability to unverified cloud firmware overrides[cite: 1].
 
 ### 8.2 Final Risk Mitigation Equation
 With full Umbrella shielding ($\mathcal{U}_{\text{prot}} \to 1.0$), effective exposure vanishes ($I_{e,\text{effective}} \to 0$), guaranteeing absolute Ownership Security[cite: 1]:
